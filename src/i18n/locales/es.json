@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "features": "Características",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "getStarted": "Comenzar"
+  },
+  "hero": {
+    "title": "Soluciones Móviles Nativas para el Mañana",
+    "subtitle": "Especializados en entregar aplicaciones móviles nativas de alto rendimiento que proporcionan una experiencia de usuario superior y una fiabilidad inigualable.",
+    "startProject": "Inicia tu Proyecto",
+    "learnMore": "Saber Más"
+  },
+  "features": {
+    "title": "¿Por qué Elegir Nativo?",
+    "subtitle": "Nuestro compromiso con el desarrollo nativo asegura que tu aplicación funcione al máximo, proporcionando una experiencia de usuario superior que resiste la prueba del tiempo.",
+    "items": {
+      "native": {
+        "title": "Desarrollo Nativo",
+        "description": "Código nativo puro para iOS y Android que garantiza un rendimiento y seguridad óptimos"
+      },
+      "security": {
+        "title": "Seguridad Mejorada",
+        "description": "Características de seguridad incorporadas y mejores prácticas para el manejo protegido de datos"
+      },
+      "speed": {
+        "title": "Velocidad Relámpago",
+        "description": "Rendimiento optimizado para una experiencia de usuario fluida y tiempos de carga rápidos"
+      },
+      "code": {
+        "title": "Código Limpio",
+        "description": "Código mantenible y escalable siguiendo las mejores prácticas de la industria"
+      }
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Nos especializamos en crear aplicaciones móviles robustas y escalables que brindan experiencias excepcionales.",
+    "items": {
+      "ios": {
+        "title": "Desarrollo iOS",
+        "description": "Desarrollo nativo en Swift para aplicaciones iPhone y iPad"
+      },
+      "android": {
+        "title": "Desarrollo Android",
+        "description": "Desarrollo nativo en Kotlin para dispositivos Android"
+      },
+      "enterprise": {
+        "title": "Soluciones Empresariales",
+        "description": "Aplicaciones escalables para grandes organizaciones"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "¿Listo para construir tu próxima aplicación móvil? Hablemos de tu proyecto.",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "email": "Correo",
+      "emailPlaceholder": "tu@correo.com",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntanos sobre tu proyecto",
+      "send": "Enviar Mensaje",
+      "success": "Mensaje enviado correctamente",
+      "error": "Error al enviar el mensaje",
+      "sending": "Enviando..."
+    }
+  },
+  "footer": {
+    "slogan": "Construyendo experiencias móviles del mañana con excelencia nativa. Soluciones rápidas, fiables y seguras para tu negocio.",
+    "services": "Servicios",
+    "company": "Empresa",
+    "legal": "Legal",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "rights": "Todos los derechos reservados."
+  }
+}
