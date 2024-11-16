@@ -61,10 +61,7 @@
       "emailPlaceholder": "tu@correo.com",
       "message": "Mensaje",
       "messagePlaceholder": "Cuéntanos sobre tu proyecto",
-      "send": "Enviar Mensaje",
-      "success": "Mensaje enviado correctamente",
-      "error": "Error al enviar el mensaje",
-      "sending": "Enviando..."
+      "send": "Enviar Mensaje"
     }
   },
   "footer": {
@@ -75,5 +72,55 @@
     "privacy": "Política de Privacidad",
     "terms": "Términos de Servicio",
     "rights": "Todos los derechos reservados."
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "sections": {
+      "acceptance": {
+        "title": "Aceptación de Términos",
+        "content": "Al acceder y utilizar los servicios de AppToLast, reconoces que has leído, entendido y aceptas estar sujeto a estos Términos de Servicio."
+      },
+      "services": {
+        "title": "Descripción de Servicios",
+        "content": "AppToLast proporciona servicios de desarrollo de aplicaciones móviles nativas, incluyendo pero no limitado a desarrollo de aplicaciones iOS y Android, soluciones empresariales y servicios de consultoría."
+      },
+      "intellectual": {
+        "title": "Derechos de Propiedad Intelectual",
+        "content": "Todos los derechos de propiedad intelectual relacionados con nuestros servicios, incluyendo software, diseños y metodologías, permanecen como propiedad exclusiva de AppToLast."
+      },
+      "liability": {
+        "title": "Limitación de Responsabilidad",
+        "content": "AppToLast no será responsable por ningún daño indirecto, incidental, especial, consecuente o punitivo resultante del uso de nuestros servicios."
+      },
+      "termination": {
+        "title": "Terminación",
+        "content": "Nos reservamos el derecho de terminar o suspender el acceso a nuestros servicios inmediatamente, sin previo aviso o responsabilidad, por cualquier razón."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "sections": {
+      "collection": {
+        "title": "Recopilación de Información",
+        "content": "Recopilamos información que nos proporcionas directamente, incluyendo información de contacto, requisitos del proyecto y cualquier otra información que elijas proporcionar."
+      },
+      "use": {
+        "title": "Uso de la Información",
+        "content": "Utilizamos la información que recopilamos para proporcionar, mantener y mejorar nuestros servicios, comunicarnos contigo y cumplir con las obligaciones legales."
+      },
+      "sharing": {
+        "title": "Compartir Información",
+        "content": "No compartimos tu información personal con terceros excepto cuando sea necesario para proporcionar nuestros servicios o según lo requiera la ley."
+      },
+      "security": {
+        "title": "Seguridad de Datos",
+        "content": "Implementamos medidas técnicas y organizativas apropiadas para proteger la seguridad de tu información personal."
+      },
+      "cookies": {
+        "title": "Cookies y Seguimiento",
+        "content": "Utilizamos cookies y tecnologías de seguimiento similares para analizar tendencias, administrar el sitio web y recopilar información demográfica."
+      }
+    }
   }
 }
