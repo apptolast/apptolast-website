@@ -1,6 +1,6 @@
-import React from 'react';
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -22,7 +22,7 @@ const Footer = () => {
                 <Linkedin className="h-6 w-6" />
               </a>
               <a href="#" className="text-gray-400 hover:text-white">
-                <Twitter className="h-6 w-6" />
+                <X className="h-6 w-6" />
               </a>
             </div>
           </div>
@@ -47,8 +47,8 @@ const Footer = () => {
               <div>
                 <h4 className="text-lg font-semibold mb-4">{t('footer.legal')}</h4>
                 <ul className="space-y-2">
-                  <li><a href="#" className="text-gray-400 hover:text-white">{t('footer.privacy')}</a></li>
-                  <li><a href="#" className="text-gray-400 hover:text-white">{t('footer.terms')}</a></li>
+                  <li><Link to="/privacy" className="text-gray-400 hover:text-white">{t('footer.privacy')}</Link></li>
+                  <li><Link to="/terms" className="text-gray-400 hover:text-white">{t('footer.terms')}</Link></li>
                 </ul>
               </div>
             </div>

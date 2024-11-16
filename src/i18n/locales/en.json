@@ -61,10 +61,7 @@
       "emailPlaceholder": "your@email.com",
       "message": "Message",
       "messagePlaceholder": "Tell us about your project",
-      "send": "Send Message",
-      "success": "Message sent successfully",
-      "error": "Error sending message",
-      "sending": "Sending..."
+      "send": "Send Message"
     }
   },
   "footer": {
@@ -75,5 +72,55 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "rights": "All rights reserved."
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "sections": {
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "content": "By accessing and using AppToLast's services, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service."
+      },
+      "services": {
+        "title": "Description of Services",
+        "content": "AppToLast provides native mobile application development services, including but not limited to iOS and Android app development, enterprise solutions, and consulting services."
+      },
+      "intellectual": {
+        "title": "Intellectual Property Rights",
+        "content": "All intellectual property rights in relation to our services, including software, designs, and methodologies, remain the exclusive property of AppToLast."
+      },
+      "liability": {
+        "title": "Limitation of Liability",
+        "content": "AppToLast shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of our services."
+      },
+      "termination": {
+        "title": "Termination",
+        "content": "We reserve the right to terminate or suspend access to our services immediately, without prior notice or liability, for any reason whatsoever."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "sections": {
+      "collection": {
+        "title": "Information Collection",
+        "content": "We collect information that you provide directly to us, including contact information, project requirements, and any other information you choose to provide."
+      },
+      "use": {
+        "title": "Use of Information",
+        "content": "We use the information we collect to provide, maintain, and improve our services, communicate with you, and comply with legal obligations."
+      },
+      "sharing": {
+        "title": "Information Sharing",
+        "content": "We do not share your personal information with third parties except as necessary to provide our services or as required by law."
+      },
+      "security": {
+        "title": "Data Security",
+        "content": "We implement appropriate technical and organizational measures to protect the security of your personal information."
+      },
+      "cookies": {
+        "title": "Cookies and Tracking",
+        "content": "We use cookies and similar tracking technologies to analyze trends, administer the website, and gather demographic information."
+      }
+    }
   }
 }
