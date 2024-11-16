@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Menu, X, Rocket } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
-import { Link } from 'react-router-dom';
+import { Link } from 'wouter';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

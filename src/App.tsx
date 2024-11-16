@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { Router, Switch, Route } from 'wouter';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
@@ -11,22 +11,22 @@ import ScrollToTop from './helpers/ScrollToTop';
 
 function App() {
   return (
-    <Router>
+    <Router base="/apptolast.com/">
       <ScrollToTop />
       <div className="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800 text-white">
         <Navbar />
-        <Routes>
-          <Route path="/" element={
+        <Switch>
+          <Route path="/">
             <main>
               <Hero />
               <Features />
               <Services />
               <Contact />
             </main>
-          } />
-          <Route path="/terms" element={<TermsOfService />} />
-          <Route path="/privacy" element={<PrivacyPolicy />} />
-        </Routes>
+          </Route>
+          <Route path="/terms" component={TermsOfService} />
+          <Route path="/privacy" component={PrivacyPolicy} />
+        </Switch>
         <Footer />
       </div>
     </Router>

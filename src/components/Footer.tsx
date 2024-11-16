@@ -1,6 +1,6 @@
 import { Github, Linkedin, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
+import { Link } from 'wouter';
 
 const Footer = () => {
   const { t } = useTranslation();
