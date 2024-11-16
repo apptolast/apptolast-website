@@ -1,5 +1,4 @@
-import React from 'react';
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
@@ -23,7 +22,7 @@ const Footer = () => {
                 <Linkedin className="h-6 w-6" />
               </a>
               <a href="#" className="text-gray-400 hover:text-white">
-                <Twitter className="h-6 w-6" />
+                <X className="h-6 w-6" />
               </a>
             </div>
           </div>

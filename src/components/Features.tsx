@@ -1,4 +1,3 @@
-import React from 'react';
 import { Smartphone, Shield, Zap, Code2 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
