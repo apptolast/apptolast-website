@@ -11,7 +11,7 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: '/apptolast.com/',
+  base: '/',
   resolve: {
     alias: {
       '@': './src',
