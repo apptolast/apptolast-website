@@ -1,0 +1,4 @@
+User-agent: Google-adstxt
+Disallow:
+User-agent: *
+Disallow: /404

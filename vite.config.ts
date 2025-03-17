@@ -11,6 +11,10 @@ export default defineConfig({
         {
           src: 'app-ads.txt',
           dest: '.'
+        },
+        {
+          src: 'robots.txt',
+          dest: '.'
         }
       ]
     })
