@@ -27,6 +27,9 @@ const Navbar = () => {
             <a href="#services" className="hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
               {t('nav.services')}
             </a>
+            <a href="#clients" className="hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
+              {t('nav.clients')}
+            </a>
             <a href="#contact" className="hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
               {t('nav.contact')}
             </a>
@@ -62,6 +65,13 @@ const Navbar = () => {
               className="hover:text-blue-500 block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200"
             >
               {t('nav.services')}
+            </a>
+            <a
+              href="#clients"
+              onClick={closeMenu}
+              className="hover:text-blue-500 block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200"
+            >
+              {t('nav.clients')}
             </a>
             <a
               href="#contact"

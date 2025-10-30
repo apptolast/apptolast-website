@@ -2,6 +2,7 @@
   "nav": {
     "features": "Features",
     "services": "Services",
+    "clients": "Clients",
     "contact": "Contact",
     "getStarted": "Get Started"
   },
@@ -48,6 +49,16 @@
       "enterprise": {
         "title": "Enterprise Solutions",
         "description": "Scalable applications for large organizations"
+      }
+    }
+  },
+  "clients": {
+    "title": "Our Clients",
+    "subtitle": "These are the clients who already trust us and who attest to our expertise and the advantages we have provided to their business",
+    "items": {
+      "academia_alba": {
+        "title": "Alba Academy in Edinburgh",
+        "description": "Process automation and assistance in managing teachers, students, and parents."
       }
     }
   },

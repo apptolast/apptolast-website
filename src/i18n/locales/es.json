@@ -2,6 +2,7 @@
   "nav": {
     "features": "Características",
     "services": "Servicios",
+    "clients": "Clientes",
     "contact": "Contacto",
     "getStarted": "Comenzar"
   },
@@ -48,6 +49,16 @@
       "enterprise": {
         "title": "Soluciones Empresariales",
         "description": "Aplicaciones escalables para grandes organizaciones"
+      }
+    }
+  },
+  "clients": {
+    "title": "Nuestro Clientes",
+    "subtitle": "Estos son las clientes que ya confian en nosotros y que dan fé de nuestro buen saber hacer y las ventajas que le hemos proporcionado a su negocio",
+    "items": {
+      "academia_alba": {
+        "title": "Alba Academy in Edinburgh",
+        "description": "Automatización de procesos y ayuda en la gestión de profesores, alumnos y padres. "
       }
     }
   },
