@@ -7,14 +7,14 @@
     "getStarted": "Comenzar"
   },
   "hero": {
-    "title": "Soluciones Móviles Nativas para el Mañana",
-    "subtitle": "Especializados en entregar aplicaciones móviles nativas de alto rendimiento que proporcionan una experiencia de usuario superior y una fiabilidad inigualable.",
+    "title": "Transforma tu Negocio con Automatización Inteligente y Desarrollo Multiplataforma",
+    "subtitle": "En AppToLast, no solo creamos software, diseñamos el futuro de tu empresa. Optimizamos tus procesos y te conectamos con tus clientes a través de soluciones web y móviles de vanguardia. Dedica tu tiempo a crecer, nosotros nos encargamos de la tecnología.",
     "startProject": "Inicia tu Proyecto",
     "learnMore": "Saber Más"
   },
   "features": {
-    "title": "¿Por qué Elegir Nativo?",
-    "subtitle": "Nuestro compromiso con el desarrollo nativo asegura que tu aplicación funcione al máximo, proporcionando una experiencia de usuario superior que resiste la prueba del tiempo.",
+    "title": "¿Por Qué AppToLast?",
+    "subtitle": "Nos diferenciamos por nuestra obsesión con la calidad, la velocidad y la seguridad. No solo construimos apps, construimos la confianza de tus usuarios.",
     "items": {
       "native": {
         "title": "Desarrollo Nativo",
@@ -35,8 +35,8 @@
     }
   },
   "services": {
-    "title": "Nuestros Servicios",
-    "subtitle": "Nos especializamos en crear aplicaciones móviles robustas y escalables que brindan experiencias excepcionales.",
+    "title": "Nuestras Soluciones a tu Medida",
+    "subtitle": "Desde la automatización de procesos internos hasta aplicaciones móviles que enamoran a tus clientes, tenemos la solución perfecta para cada desafío digital.",
     "items": {
       "ios": {
         "title": "Desarrollo iOS",
@@ -53,11 +53,11 @@
     }
   },
   "clients": {
-    "title": "Nuestro Clientes",
-    "subtitle": "Estos son las clientes que ya confian en nosotros y que dan fé de nuestro buen saber hacer y las ventajas que le hemos proporcionado a su negocio",
+    "title": "Nuestros Socios de Éxito",
+    "subtitle": "No solo trabajamos para nuestros clientes, colaboramos con ellos para alcanzar nuevas cotas de éxito. Su crecimiento es nuestro mejor testimonio.",
     "items": {
       "academia_alba": {
-        "title": "Alba Academy in Edinburgh",
+        "title": "Academia Alba en Edimburgo",
         "description": "Automatización de procesos y ayuda en la gestión de profesores, alumnos y padres. "
       }
     }
@@ -111,26 +111,71 @@
   },
   "privacy": {
     "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: 24/05/2024",
     "sections": {
-      "collection": {
-        "title": "Recopilación de Información",
-        "content": "Recopilamos información que nos proporcionas directamente, incluyendo información de contacto, requisitos del proyecto y cualquier otra información que elijas proporcionar."
+      "introduction": {
+        "title": "Introducción",
+        "content": "Bienvenido a AppToLast. Nos comprometemos a proteger tu privacidad. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información cuando visitas nuestro sitio web y utilizas nuestros servicios. Por favor, lee esta política de privacidad detenidamente. Si no estás de acuerdo con los términos de esta política de privad, por favor no accedas al sitio."
       },
-      "use": {
-        "title": "Uso de la Información",
-        "content": "Utilizamos la información que recopilamos para proporcionar, mantener y mejorar nuestros servicios, comunicarnos contigo y cumplir con las obligaciones legales."
+      "informationCollection": {
+        "title": "Información que Recopilamos",
+        "content": "Podemos recopilar información sobre ti de varias maneras. La información que podemos recopilar en el Sitio incluye:",
+        "points": {
+          "personalData": "Información de identificación personal, como tu nombre, dirección de correo electrónico y número de teléfono, que nos proporcionas voluntariamente cuando nos contactas o utilizas nuestros servicios.",
+          "derivativeData": "Información que nuestros servidores recopilan automáticamente cuando accedes al Sitio, como tu dirección IP, tipo de navegador, sistema operativo, tiempos de acceso y las páginas que has visto directamente antes y después de acceder al Sitio.",
+          "trackingData": "Podemos utilizar cookies y tecnologías de seguimiento similares para rastrear tu actividad en nuestro Sitio y retener cierta información."
+        }
       },
-      "sharing": {
-        "title": "Compartir Información",
-        "content": "No compartimos tu información personal con terceros excepto cuando sea necesario para proporcionar nuestros servicios o según lo requiera la ley."
+      "useOfInformation": {
+        "title": "Uso de Tu Información",
+        "content": "Tener información precisa sobre ti nos permite ofrecerte una experiencia fluida, eficiente y personalizada. Específicamente, podemos utilizar la información recopilada sobre ti a través del Sitio para:",
+        "points": {
+          "provideServices": "Proveer, mantener y mejorar nuestros servicios.",
+          "communication": "Comunicarnos contigo acerca de tu proyecto o consultas.",
+          "analytics": "Monitorear y analizar el uso y las tendencias para mejorar tu experiencia con el Sitio.",
+          "legal": "Cumplir con las obligaciones legales."
+        }
       },
-      "security": {
-        "title": "Seguridad de Datos",
-        "content": "Implementamos medidas técnicas y organizativas apropiadas para proteger la seguridad de tu información personal."
+      "sharingOfInformation": {
+        "title": "Divulgación de Tu Información",
+        "content": "Podemos compartir la información que hemos recopilado sobre ti en ciertas situaciones. Tu información puede ser divulgada de la siguiente manera:",
+        "points": {
+          "byLaw": "Si estamos obligados a hacerlo por ley o en respuesta a solicitudes válidas de autoridades públicas.",
+          "serviceProviders": "Podemos compartir tu información con proveedores de servicios de terceros que realizan servicios para nosotros o en nuestro nombre, incluyendo procesamiento de pagos, análisis de datos, entrega de correos electrónicos, servicios de hosting y servicio al cliente.",
+          "businessTransfers": "En relación con cualquier fusión, venta de activos de la empresa, financiación o adquisición de todo o una parte de nuestro negocio por otra empresa."
+        }
+      },
+      "dataSecurity": {
+        "title": "Seguridad de Tu Información",
+        "content": "Utilizamos medidas de seguridad administrativas, técnicas y físicas para ayudar a proteger tu información personal. Aunque hemos tomado medidas razonables para asegurar la información personal que nos proporcionas, ten en cuenta que a pesar de nuestros esfuerzos, ninguna medida de seguridad es perfecta o impenetrable, y no se puede garantizar ningún método de transmisión de datos contra cualquier intercepción u otro tipo de uso indebido."
+      },
+      "yourRights": {
+        "title": "Tus Derechos de Privacidad",
+        "content": "Dependiendo de tu ubicación, puedes tener los siguientes derechos con respecto a tus datos personales:",
+        "points": {
+          "access": "El derecho a solicitar acceso a los datos personales que tenemos sobre ti.",
+          "rectification": "El derecho a solicitar que corrijamos cualquier dato personal inexacto.",
+          "erasure": "El derecho a solicitar que eliminemos tus datos personales.",
+          "portability": "El derecho a recibir tus datos personales en un formato estructurado, de uso común y legible por máquina.",
+          "object": "El derecho a oponerte al procesamiento de tus datos personales."
+        },
+        "exercise": "Para ejercer estos derechos, por favor contáctanos utilizando la información de contacto proporcionada a continuación."
       },
       "cookies": {
-        "title": "Cookies y Seguimiento",
-        "content": "Utilizamos cookies y tecnologías de seguimiento similares para analizar tendencias, administrar el sitio web y recopilar información demográfica."
+        "title": "Cookies y Tecnologías de Seguimiento",
+        "content": "Utilizamos cookies y tecnologías de seguimiento similares para rastrear la actividad en nuestro Servicio y mantener cierta información. Puedes indicar a tu navegador que rechace todas las cookies o que indique cuándo se está enviando una cookie. Sin embargo, si no aceptas cookies, es posible que no puedas utilizar algunas partes de nuestro Servicio."
+      },
+      "childrensPrivacy": {
+        "title": "Privacidad de los Niños",
+        "content": "Nuestro Servicio no se dirige a menores de 13 años. No recopilamos conscientemente información de identificación personal de ninguna persona menor de 13 años. Si eres padre o tutor y sabes que tu hijo nos ha proporcionado Datos Personales, por favor contáctanos."
+      },
+      "changes": {
+        "title": "Cambios a Esta Política de Privacidad",
+        "content": "Podemos actualizar nuestra Política de Privacidad de vez en cuando. Te notificaremos cualquier cambio publicando la nueva Política de Privacidad en esta página. Se te recomienda revisar esta Política de Privacidad periódicamente para cualquier cambio."
+      },
+      "contact": {
+        "title": "Contáctanos",
+        "content": "Si tienes preguntas o comentarios sobre esta Política de Privacidad, por favor contáctanos por correo electrónico <a href='mailto:admin@apptolast.com' class='text-blue-400 hover:underline'>aquí.</a>"
       }
     }
   }

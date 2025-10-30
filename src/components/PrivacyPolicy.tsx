@@ -19,9 +19,10 @@ const PrivacyPolicy = () => {
                 <h2 className="text-2xl font-semibold mb-4 text-blue-400">
                   {t(`privacy.sections.${sectionKey}.title`)}
                 </h2>
-                <p className="text-gray-300 leading-relaxed">
-                  {t(`privacy.sections.${sectionKey}.content`)}
-                </p>
+                <p
+                  className="text-gray-300 leading-relaxed"
+                  dangerouslySetInnerHTML={{ __html: t(`privacy.sections.${sectionKey}.content`) }}
+                />
               </section>
             ))}
           </div>

@@ -15,13 +15,13 @@ const Footer = () => {
               {t('footer.slogan')}
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a href="https://github.com/apptolast" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
                 <Github className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              {/* <a href="#" className="text-gray-400 hover:text-white">
                 <Linkedin className="h-6 w-6" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              </a> */}
+              <a href="https://x.com/apptolast" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
                 <X className="h-6 w-6" />
               </a>
             </div>
