@@ -2,18 +2,19 @@
   "nav": {
     "features": "Features",
     "services": "Services",
+    "clients": "Clients",
     "contact": "Contact",
     "getStarted": "Get Started"
   },
   "hero": {
-    "title": "Native Mobile Solutions for Tomorrow",
-    "subtitle": "Specialized in delivering high-performance native mobile applications that provide superior user experience and unmatched reliability.",
+    "title": "Transform Your Business with Intelligent Automation and Cross-Platform Development",
+    "subtitle": "At AppToLast, we don't just create software; we design the future of your company. We optimize your processes and connect you with your customers through cutting-edge web and mobile solutions. Focus on growth; we'll handle the technology.",
     "startProject": "Start Your Project",
     "learnMore": "Learn More"
   },
   "features": {
-    "title": "Why Choose Native?",
-    "subtitle": "Our commitment to native development ensures your app performs at its best, providing a superior user experience that stands the test of time.",
+    "title": "Why AppToLast?",
+    "subtitle": "We stand out for our obsession with quality, speed, and security. We don't just build apps; we build your users' trust.",
     "items": {
       "native": {
         "title": "Native Development",
@@ -34,8 +35,8 @@
     }
   },
   "services": {
-    "title": "Our Services",
-    "subtitle": "We specialize in creating robust, scalable mobile applications that deliver exceptional user experiences.",
+    "title": "Our Custom Solutions",
+    "subtitle": "From automating internal processes to creating mobile apps that your customers will love, we have the perfect solution for every digital challenge.",
     "items": {
       "ios": {
         "title": "iOS Development",
@@ -48,6 +49,16 @@
       "enterprise": {
         "title": "Enterprise Solutions",
         "description": "Scalable applications for large organizations"
+      }
+    }
+  },
+  "clients": {
+    "title": "Our Success Partners",
+    "subtitle": "We don't just work for our clients; we collaborate with them to reach new heights of success. Their growth is our best testament.",
+    "items": {
+      "academia_alba": {
+        "title": "Alba Academy in Edinburgh",
+        "description": "Process automation and assistance in managing teachers, students, and parents."
       }
     }
   },
@@ -100,26 +111,71 @@
   },
   "privacy": {
     "title": "Privacy Policy",
+    "lastUpdated": "Last updated: 24/05/2024",
     "sections": {
-      "collection": {
-        "title": "Information Collection",
-        "content": "We collect information that you provide directly to us, including contact information, project requirements, and any other information you choose to provide."
+      "introduction": {
+        "title": "Introduction",
+        "content": "Welcome to AppToLast. We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site."
       },
-      "use": {
-        "title": "Use of Information",
-        "content": "We use the information we collect to provide, maintain, and improve our services, communicate with you, and comply with legal obligations."
+      "informationCollection": {
+        "title": "Information We Collect",
+        "content": "We may collect information about you in a variety of ways. The information we may collect on the Site includes:",
+        "points": {
+          "personalData": "Personally identifiable information, such as your name, email address, and telephone number, that you voluntarily give to us when you contact us or use our services.",
+          "derivativeData": "Information our servers automatically collect when you access the Site, such as your IP address, your browser type, your operating system, your access times, and the pages you have viewed directly before and after accessing the Site.",
+          "trackingData": "We may use cookies and similar tracking technologies to track your activity on our Site and hold certain information."
+        }
       },
-      "sharing": {
-        "title": "Information Sharing",
-        "content": "We do not share your personal information with third parties except as necessary to provide our services or as required by law."
+      "useOfInformation": {
+        "title": "Use of Your Information",
+        "content": "Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use information collected about you via the Site to:",
+        "points": {
+          "provideServices": "Provide, maintain, and improve our services.",
+          "communication": "Communicate with you about your project or inquiries.",
+          "analytics": "Monitor and analyze usage and trends to improve your experience with the Site.",
+          "legal": "Comply with legal obligations."
+        }
       },
-      "security": {
-        "title": "Data Security",
-        "content": "We implement appropriate technical and organizational measures to protect the security of your personal information."
+      "sharingOfInformation": {
+        "title": "Disclosure of Your Information",
+        "content": "We may share information we have collected about you in certain situations. Your information may be disclosed as follows:",
+        "points": {
+          "byLaw": "If we are required to do so by law or in response to valid requests by public authorities.",
+          "serviceProviders": "We may share your information with third-party service providers that perform services for us or on our behalf, including payment processing, data analysis, email delivery, hosting services, and customer service.",
+          "businessTransfers": "In connection with any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company."
+        }
+      },
+      "dataSecurity": {
+        "title": "Security of Your Information",
+        "content": "We use administrative, technical, and physical security measures to help protect your personal information. While we have taken reasonable steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable, and no method of data transmission can be guaranteed against any interception or other type of misuse."
+      },
+      "yourRights": {
+        "title": "Your Privacy Rights",
+        "content": "Depending on your location, you may have the following rights regarding your personal data:",
+        "points": {
+          "access": "The right to request access to the personal data we hold about you.",
+          "rectification": "The right to request that we correct any inaccurate personal data.",
+          "erasure": "The right to request that we delete your personal data.",
+          "portability": "The right to receive your personal data in a structured, commonly used, and machine-readable format.",
+          "object": "The right to object to the processing of your personal data."
+        },
+        "exercise": "To exercise these rights, please contact us using the contact information provided below."
       },
       "cookies": {
-        "title": "Cookies and Tracking",
-        "content": "We use cookies and similar tracking technologies to analyze trends, administer the website, and gather demographic information."
+        "title": "Cookies and Tracking Technologies",
+        "content": "We use cookies and similar tracking technologies to track the activity on our Service and hold certain information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service."
+      },
+      "childrensPrivacy": {
+        "title": "Children's Privacy",
+        "content": "Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If you are a parent or guardian and you are aware that your child has provided us with Personal Data, please contact us."
+      },
+      "changes": {
+        "title": "Changes to This Privacy Policy",
+        "content": "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "If you have any questions or comments about this Privacy Policy, please contact us by email <a href='mailto:admin@apptolast.com' class='text-blue-400 hover:underline'>here.</a>"
       }
     }
   }
