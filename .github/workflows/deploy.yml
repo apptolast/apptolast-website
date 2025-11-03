@@ -37,15 +37,10 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
         
-      - name: Upload artifact dist
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
-        
-      - name: Upload artifact public
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: public/
 
   deploy:
     environment:
