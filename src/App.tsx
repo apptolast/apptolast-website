@@ -9,12 +9,14 @@ import Footer from './components/Footer';
 import TermsOfService from './components/TermsOfService';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import ScrollToTop from './helpers/ScrollToTop';
+import AdBanner from './components/AdBanner';
 
 function App() {
   return (
     <Router base="/">
       <ScrollToTop />
       <div className="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800 text-white">
+        <AdBanner />
         <Navbar />
         <Switch>
           <Route path="/">

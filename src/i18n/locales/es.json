@@ -72,7 +72,9 @@
       "emailPlaceholder": "tu@correo.com",
       "message": "Mensaje",
       "messagePlaceholder": "Cuéntanos sobre tu proyecto",
-      "send": "Enviar Mensaje"
+      "send": "Enviar Mensaje",
+      "sending": "Enviando",
+      "success": "Mensaje enviado correctamente"
     }
   },
   "footer": {
