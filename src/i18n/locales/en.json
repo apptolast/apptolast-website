@@ -72,7 +72,9 @@
       "emailPlaceholder": "your@email.com",
       "message": "Message",
       "messagePlaceholder": "Tell us about your project",
-      "send": "Send Message"
+      "send": "Send Message",
+      "sending": "Sending",
+      "success": "Email sended"
     }
   },
   "footer": {
