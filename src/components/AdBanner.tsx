@@ -11,7 +11,7 @@ const AdBanner = () => {
 
   return (
     <>
-      <div className="hidden md:block fixed top-0 left-0 h-screen w-1/6 z-50">
+      <div className="md:block fixed top-0 left-0 h-screen w-1/6 z-50">
         <ins className="adsbygoogle"
              style={{ display: 'block', width: '100%', height: '100%' }}
              data-ad-client="ca-pub-6022710211253419"
@@ -19,7 +19,7 @@ const AdBanner = () => {
              data-ad-format="auto"
              data-full-width-responsive="true"></ins>
       </div>
-      <div className="hidden md:block fixed top-0 right-0 h-screen w-1/6 z-50">
+      <div className="md:block fixed top-0 right-0 h-screen w-1/6 z-50">
         <ins className="adsbygoogle"
              style={{ display: 'block', width: '100%', height: '100%' }}
              data-ad-client="ca-pub-6022710211253419"
