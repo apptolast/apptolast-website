@@ -16,9 +16,7 @@ function App() {
     <Router base="/">
       <ScrollToTop />
       <div className="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800 text-white">
-        <div style={{ marginTop: '20px' }}>
-          <AdBanner slotId="1958284813" />
-        </div>
+        <AdBanner />
         <Navbar />
         <Switch>
           <Route path="/">
