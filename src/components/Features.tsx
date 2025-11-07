@@ -1,4 +1,4 @@
-import { Smartphone, Shield, Zap, Code2 } from 'lucide-react';
+import { Smartphone, Shield, Zap, Code2, BrainCircuit } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const Features = () => {
@@ -7,8 +7,18 @@ const Features = () => {
   const features = [
     {
       icon: <Smartphone className="h-8 w-8 text-blue-500" />,
-      titleKey: "features.items.native.title",
-      descriptionKey: "features.items.native.description"
+      titleKey: "features.items.multiplatform.title",
+      descriptionKey: "features.items.multiplatform.description"
+    },
+    {
+      icon: <BrainCircuit className="h-8 w-8 text-blue-500" />,
+      titleKey: "features.items.automation.title",
+      descriptionKey: "features.items.automation.description"
+    },
+    {
+      icon: <Code2 className="h-8 w-8 text-blue-500" />,
+      titleKey: "features.items.cleanCode.title",
+      descriptionKey: "features.items.cleanCode.description"
     },
     {
       icon: <Shield className="h-8 w-8 text-blue-500" />,
@@ -19,11 +29,6 @@ const Features = () => {
       icon: <Zap className="h-8 w-8 text-blue-500" />,
       titleKey: "features.items.speed.title",
       descriptionKey: "features.items.speed.description"
-    },
-    {
-      icon: <Code2 className="h-8 w-8 text-blue-500" />,
-      titleKey: "features.items.code.title",
-      descriptionKey: "features.items.code.description"
     }
   ];
 
@@ -36,7 +41,7 @@ const Features = () => {
             {t('features.subtitle')}
           </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
           {features.map((feature, index) => (
             <div key={index} className="bg-slate-700/50 p-6 rounded-xl hover:transform hover:-translate-y-1 transition-all duration-300">
               <div className="mb-4">{feature.icon}</div>

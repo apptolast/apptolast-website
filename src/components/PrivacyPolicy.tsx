@@ -4,6 +4,10 @@ import { Lock } from 'lucide-react';
 const PrivacyPolicy = () => {
   const { t } = useTranslation();
 
+  const privacyContentKeys = Object.keys(t('privacy', { returnObjects: true })).filter(
+    (key) => key !== 'title' && key !== 'lastUpdated'
+  );
+
   return (
     <div className="pt-20 min-h-screen bg-slate-900">
       <div className="container mx-auto px-4 py-16">
@@ -14,21 +18,21 @@ const PrivacyPolicy = () => {
           </div>
 
           <div className="space-y-12">
-            {Object.keys(t('privacy.sections', { returnObjects: true })).map((sectionKey) => (
+            {privacyContentKeys.map((sectionKey) => (
               <section key={sectionKey} className="bg-slate-800/50 rounded-2xl p-8 backdrop-blur-sm border border-slate-700/50">
                 <h2 className="text-2xl font-semibold mb-4 text-blue-400">
-                  {t(`privacy.sections.${sectionKey}.title`)}
+                  {t(`privacy.${sectionKey}.title`)}
                 </h2>
                 <p
                   className="text-gray-300 leading-relaxed"
-                  dangerouslySetInnerHTML={{ __html: t(`privacy.sections.${sectionKey}.content`) }}
+                  dangerouslySetInnerHTML={{ __html: t(`privacy.${sectionKey}.content`) }}
                 />
               </section>
             ))}
           </div>
 
           <div className="mt-12 text-center text-gray-400 text-sm">
-            <p>Last updated: {new Date().toLocaleDateString()}</p>
+            <p>Last updated: {t('privacy.lastUpdated')}</p>
           </div>
         </div>
       </div>

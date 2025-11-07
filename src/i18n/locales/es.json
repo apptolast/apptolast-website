@@ -1,54 +1,66 @@
 {
   "nav": {
-    "features": "Características",
-    "services": "Servicios",
+    "features": "¿Por qué AppToLast?",
+    "services": "Nuestras Soluciones",
     "clients": "Clientes",
     "contact": "Contacto",
     "getStarted": "Comenzar"
   },
   "hero": {
-    "title": "Transforma tu Negocio con Automatización Inteligente y Desarrollo Multiplataforma",
-    "subtitle": "En AppToLast, no solo creamos software, diseñamos el futuro de tu empresa. Optimizamos tus procesos y te conectamos con tus clientes a través de soluciones web y móviles de vanguardia. Dedica tu tiempo a crecer, nosotros nos encargamos de la tecnología.",
-    "startProject": "Inicia tu Proyecto",
+    "title": "Transforma Tu Negocio con Automatización Inteligente y Desarrollo Multiplataforma",
+    "subtitle": "En AppToLast no solo creamos software; diseñamos el futuro de tu empresa. Optimizamos tus procesos y te conectamos con tus clientes a través de soluciones web y móviles de vanguardia. Enfócate en crecer; nosotros nos encargamos de la tecnología.",
+    "startProject": "Iniciar Proyecto",
     "learnMore": "Saber Más"
   },
   "features": {
-    "title": "¿Por Qué AppToLast?",
-    "subtitle": "Nos diferenciamos por nuestra obsesión con la calidad, la velocidad y la seguridad. No solo construimos apps, construimos la confianza de tus usuarios.",
+    "title": "¿Por qué AppToLast?",
+    "subtitle": "AppToLast destaca porque no solo creamos aplicaciones, sino que acompañamos a cada cliente en una transformación digital auténtica y personalizada. Nuestro equipo combina experiencia en desarrollo nativo (Swift para iOS, Kotlin para Android) con know-how en automatización y seguridad, permitiéndonos construir soluciones fiables, rápidas y seguras.",
     "items": {
-      "native": {
-        "title": "Desarrollo Nativo",
-        "description": "Código nativo puro para iOS y Android que garantiza un rendimiento y seguridad óptimos"
+      "multiplatform": {
+        "title": "Expertos Multiplataforma",
+        "description": "Desarrollo de apps nativas e híbridas para cubrir todas tus necesidades, desde prototipos hasta productos altamente escalables."
+      },
+      "automation": {
+        "title": "Automatización Inteligente",
+        "description": "Integramos procesos automatizados en tus apps y sistemas corporativos para ahorrar tiempo, minimizar errores y potenciar tu negocio."
+      },
+      "cleanCode": {
+        "title": "Código Limpio y Mantenible",
+        "description": "Nuestras soluciones mantienen altos estándares de legibilidad y escalabilidad, lo que facilita actualizaciones y nuevas funcionalidades."
       },
       "security": {
-        "title": "Seguridad Mejorada",
-        "description": "Características de seguridad incorporadas y mejores prácticas para el manejo protegido de datos"
+        "title": "Seguridad y Confianza",
+        "description": "Implementamos controles de seguridad avanzados y buenas prácticas para proteger la información de tus usuarios."
       },
       "speed": {
-        "title": "Velocidad Relámpago",
-        "description": "Rendimiento optimizado para una experiencia de usuario fluida y tiempos de carga rápidos"
-      },
-      "code": {
-        "title": "Código Limpio",
-        "description": "Código mantenible y escalable siguiendo las mejores prácticas de la industria"
+        "title": "Velocidad y Eficiencia",
+        "description": "Apps optimizadas para una experiencia ágil tanto a nivel cliente como backend."
       }
     }
   },
   "services": {
-    "title": "Nuestras Soluciones a tu Medida",
-    "subtitle": "Desde la automatización de procesos internos hasta aplicaciones móviles que enamoran a tus clientes, tenemos la solución perfecta para cada desafío digital.",
+    "title": "Nuestras Soluciones Personalizadas",
+    "subtitle": "En AppToLast hemos desarrollado más de 15 proyectos en múltiples lenguajes y frameworks, adaptándonos a los retos de cada cliente. Aquí algunos ejemplos reales de nuestras soluciones:",
     "items": {
-      "ios": {
-        "title": "Desarrollo iOS",
-        "description": "Desarrollo nativo en Swift para aplicaciones iPhone y iPad"
+      "educationalAutomation": {
+        "title": "Automatización de Gestión Educativa",
+        "description": "Proyecto para Alba Academy en Edimburgo: Automatizamos procesos administrativos y comunicación entre profesores, alumnos y padres, facilitando el acceso seguro y la eficiencia en la gestión educativa."
       },
-      "android": {
-        "title": "Desarrollo Android",
-        "description": "Desarrollo nativo en Kotlin para dispositivos Android"
+      "mobileApps": {
+        "title": "Aplicaciones Móviles Personalizadas",
+        "description": "FamilyFilmApp: App de gestión familiar con notificaciones, seguimiento personalizado y control de usuarios. InvernaderosAPI: Sistema para monitorear y controlar parámetros en invernaderos, facilitando la gestión agrícola online y offline."
       },
-      "enterprise": {
-        "title": "Soluciones Empresariales",
-        "description": "Aplicaciones escalables para grandes organizaciones"
+      "aiApis": {
+        "title": "Inteligencia Artificial y APIs Modernas",
+        "description": "GameChangerIA: Plataforma que utiliza IA para automatizar el desarrollo de aplicaciones web full-stack, reduciendo tiempos y costes de desarrollo. FileUploadGoogle: Solución para gestión y automatización de subida de archivos a Google Drive, escalable y segura."
+      },
+      "enterpriseSolutions": {
+        "title": "Soluciones Empresariales a Medida",
+        "description": "Apps de monitoreo de servidores, integración con sistemas de gestión (ERP, CRM) y software de automatización interna para empresas de cualquier tamaño."
+      },
+      "techFlexibility": {
+        "title": "Flexibilidad Tecnológica",
+        "description": "Proyectos en Kotlin, Python, Java, TypeScript y Rust, lo que nos permite adaptarnos a tu stack y necesidades específicas."
       }
     }
   },
@@ -62,123 +74,113 @@
       }
     }
   },
-  "contact": {
-    "title": "Contáctanos",
-    "subtitle": "¿Listo para construir tu próxima aplicación móvil? Hablemos de tu proyecto.",
-    "form": {
-      "name": "Nombre",
-      "namePlaceholder": "Tu nombre",
-      "email": "Correo",
-      "emailPlaceholder": "tu@correo.com",
-      "message": "Mensaje",
-      "messagePlaceholder": "Cuéntanos sobre tu proyecto",
-      "send": "Enviar Mensaje",
-      "sending": "Enviando",
-      "success": "Mensaje enviado correctamente"
-    }
-  },
-  "footer": {
+"contact": {
+  "title": "¿Listo para Transformar tu Negocio?",
+  "subtitle": "Contáctanos hoy para discutir tu proyecto. Estamos ansiosos por escuchar tus ideas y ayudarte a hacerlas realidad.",
+  "form": {
+    "name": "Nombre",
+    "namePlaceholder": "Tu nombre",
+    "email": "Correo",
+    "emailPlaceholder": "tu@correo.com",
+    "message": "Mensaje",
+    "messagePlaceholder": "Cuéntanos sobre tu proyecto",
+    "send": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "success": "¡Mensaje enviado correctamente!",
+    "error": "Error al enviar el mensaje. Por favor, inténtalo de nuevo."
+  }
+},
+  "footer": {   
     "slogan": "Construyendo experiencias móviles del mañana con excelencia nativa. Soluciones rápidas, fiables y seguras para tu negocio.",
     "services": "Servicios",
     "company": "Empresa",
     "legal": "Legal",
     "privacy": "Política de Privacidad",
     "terms": "Términos de Servicio",
-    "rights": "Todos los derechos reservados."
+    "rights": "© AppToLast. Todos los derechos reservados."
   },
-  "terms": {
-    "title": "Términos de Servicio",
-    "sections": {
-      "acceptance": {
-        "title": "Aceptación de Términos",
-        "content": "Al acceder y utilizar los servicios de AppToLast, reconoces que has leído, entendido y aceptas estar sujeto a estos Términos de Servicio."
-      },
-      "services": {
-        "title": "Descripción de Servicios",
-        "content": "AppToLast proporciona servicios de desarrollo de aplicaciones móviles nativas, incluyendo pero no limitado a desarrollo de aplicaciones iOS y Android, soluciones empresariales y servicios de consultoría."
-      },
-      "intellectual": {
-        "title": "Derechos de Propiedad Intelectual",
-        "content": "Todos los derechos de propiedad intelectual relacionados con nuestros servicios, incluyendo software, diseños y metodologías, permanecen como propiedad exclusiva de AppToLast."
-      },
-      "liability": {
-        "title": "Limitación de Responsabilidad",
-        "content": "AppToLast no será responsable por ningún daño indirecto, incidental, especial, consecuente o punitivo resultante del uso de nuestros servicios."
-      },
-      "termination": {
-        "title": "Terminación",
-        "content": "Nos reservamos el derecho de terminar o suspender el acceso a nuestros servicios inmediatamente, sin previo aviso o responsabilidad, por cualquier razón."
-      }
-    }
+  "language": {
+    "es": "Español",
+    "en": "Inglés"
   },
   "privacy": {
     "title": "Política de Privacidad",
-    "lastUpdated": "Última actualización: 24/05/2024",
-    "sections": {
-      "introduction": {
-        "title": "Introducción",
-        "content": "Bienvenido a AppToLast. Nos comprometemos a proteger tu privacidad. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información cuando visitas nuestro sitio web y utilizas nuestros servicios. Por favor, lee esta política de privacidad detenidamente. Si no estás de acuerdo con los términos de esta política de privad, por favor no accedas al sitio."
-      },
-      "informationCollection": {
-        "title": "Información que Recopilamos",
-        "content": "Podemos recopilar información sobre ti de varias maneras. La información que podemos recopilar en el Sitio incluye:",
-        "points": {
-          "personalData": "Información de identificación personal, como tu nombre, dirección de correo electrónico y número de teléfono, que nos proporcionas voluntariamente cuando nos contactas o utilizas nuestros servicios.",
-          "derivativeData": "Información que nuestros servidores recopilan automáticamente cuando accedes al Sitio, como tu dirección IP, tipo de navegador, sistema operativo, tiempos de acceso y las páginas que has visto directamente antes y después de acceder al Sitio.",
-          "trackingData": "Podemos utilizar cookies y tecnologías de seguimiento similares para rastrear tu actividad en nuestro Sitio y retener cierta información."
-        }
-      },
-      "useOfInformation": {
-        "title": "Uso de Tu Información",
-        "content": "Tener información precisa sobre ti nos permite ofrecerte una experiencia fluida, eficiente y personalizada. Específicamente, podemos utilizar la información recopilada sobre ti a través del Sitio para:",
-        "points": {
-          "provideServices": "Proveer, mantener y mejorar nuestros servicios.",
-          "communication": "Comunicarnos contigo acerca de tu proyecto o consultas.",
-          "analytics": "Monitorear y analizar el uso y las tendencias para mejorar tu experiencia con el Sitio.",
-          "legal": "Cumplir con las obligaciones legales."
-        }
-      },
-      "sharingOfInformation": {
-        "title": "Divulgación de Tu Información",
-        "content": "Podemos compartir la información que hemos recopilado sobre ti en ciertas situaciones. Tu información puede ser divulgada de la siguiente manera:",
-        "points": {
-          "byLaw": "Si estamos obligados a hacerlo por ley o en respuesta a solicitudes válidas de autoridades públicas.",
-          "serviceProviders": "Podemos compartir tu información con proveedores de servicios de terceros que realizan servicios para nosotros o en nuestro nombre, incluyendo procesamiento de pagos, análisis de datos, entrega de correos electrónicos, servicios de hosting y servicio al cliente.",
-          "businessTransfers": "En relación con cualquier fusión, venta de activos de la empresa, financiación o adquisición de todo o una parte de nuestro negocio por otra empresa."
-        }
-      },
-      "dataSecurity": {
-        "title": "Seguridad de Tu Información",
-        "content": "Utilizamos medidas de seguridad administrativas, técnicas y físicas para ayudar a proteger tu información personal. Aunque hemos tomado medidas razonables para asegurar la información personal que nos proporcionas, ten en cuenta que a pesar de nuestros esfuerzos, ninguna medida de seguridad es perfecta o impenetrable, y no se puede garantizar ningún método de transmisión de datos contra cualquier intercepción u otro tipo de uso indebido."
-      },
-      "yourRights": {
-        "title": "Tus Derechos de Privacidad",
-        "content": "Dependiendo de tu ubicación, puedes tener los siguientes derechos con respecto a tus datos personales:",
-        "points": {
-          "access": "El derecho a solicitar acceso a los datos personales que tenemos sobre ti.",
-          "rectification": "El derecho a solicitar que corrijamos cualquier dato personal inexacto.",
-          "erasure": "El derecho a solicitar que eliminemos tus datos personales.",
-          "portability": "El derecho a recibir tus datos personales en un formato estructurado, de uso común y legible por máquina.",
-          "object": "El derecho a oponerte al procesamiento de tus datos personales."
-        },
-        "exercise": "Para ejercer estos derechos, por favor contáctanos utilizando la información de contacto proporcionada a continuación."
-      },
-      "cookies": {
-        "title": "Cookies y Tecnologías de Seguimiento",
-        "content": "Utilizamos cookies y tecnologías de seguimiento similares para rastrear la actividad en nuestro Servicio y mantener cierta información. Puedes indicar a tu navegador que rechace todas las cookies o que indique cuándo se está enviando una cookie. Sin embargo, si no aceptas cookies, es posible que no puedas utilizar algunas partes de nuestro Servicio."
-      },
-      "childrensPrivacy": {
-        "title": "Privacidad de los Niños",
-        "content": "Nuestro Servicio no se dirige a menores de 13 años. No recopilamos conscientemente información de identificación personal de ninguna persona menor de 13 años. Si eres padre o tutor y sabes que tu hijo nos ha proporcionado Datos Personales, por favor contáctanos."
-      },
-      "changes": {
-        "title": "Cambios a Esta Política de Privacidad",
-        "content": "Podemos actualizar nuestra Política de Privacidad de vez en cuando. Te notificaremos cualquier cambio publicando la nueva Política de Privacidad en esta página. Se te recomienda revisar esta Política de Privacidad periódicamente para cualquier cambio."
-      },
-      "contact": {
-        "title": "Contáctanos",
-        "content": "Si tienes preguntas o comentarios sobre esta Política de Privacidad, por favor contáctanos por correo electrónico <a href='mailto:admin@apptolast.com' class='text-blue-400 hover:underline'>aquí.</a>"
-      }
+    "lastUpdated": "24 de Mayo de 2024",
+    "introduction": {
+      "title": "Introducción",
+      "content": "AppToLast se compromete a proteger la privacidad de sus usuarios. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y salvaguardamos su información cuando visita nuestro sitio web apptolast.github.io/apptolast-website/ y utiliza nuestros servicios."
+    },
+    "informationCollection": {
+      "title": "Información que Recopilamos",
+      "content": "Podemos recopilar información personal como su nombre, dirección de correo electrónico y datos de contacto cuando interactúa con nuestros servicios, por ejemplo, cuando completa un formulario de contacto o se suscribe a nuestro boletín."
+    },
+    "useOfInformation": {
+      "title": "Cómo Utilizamos Su Información",
+      "content": "La información que recopilamos se utiliza para proporcionar, mantener y mejorar nuestros servicios, para comunicarnos con usted, para responder a sus consultas y para enviarle actualizaciones o materiales promocionales. También podemos utilizar esta información para análisis internos e investigación para mejorar la experiencia del usuario."
+    },
+    "informationSharing": {
+      "title": "Compartiendo Su Información",
+      "content": "AppToLast no vende, intercambia ni transfiere de ninguna otra manera su información de identificación personal a terceros. Esto no incluye a terceros de confianza que nos ayudan a operar nuestro sitio web, llevar a cabo nuestro negocio o servir a nuestros usuarios, siempre y cuando esas partes acuerden mantener esta información confidencial."
+    },
+    "dataSecurity": {
+      "title": "Seguridad de Datos",
+      "content": "Implementamos una variedad de medidas de seguridad para mantener la seguridad de su información personal cuando ingresa, envía o accede a su información personal. Sin embargo, ningún método de transmisión por Internet o método de almacenamiento electrónico es 100% seguro."
+    },
+    "userRights": {
+      "title": "Sus Derechos",
+      "content": "Tiene derecho a acceder, actualizar o eliminar su información personal. Si desea ejercer alguno de estos derechos, contáctenos."
+    },
+    "thirdPartyLinks": {
+      "title": "Enlaces a Terceros",
+      "content": "Nuestro sitio web puede contener enlaces a sitios web de terceros que no son operados por nosotros. No tenemos control ni asumimos ninguna responsabilidad por el contenido, las políticas de privacidad o las prácticas de los sitios o servicios de terceros."
+    },
+    "childrensPrivacy": {
+      "title": "Privacidad de los Niños",
+      "content": "Nuestros servicios no están dirigidos a personas menores de 13 años. No recopilamos a sabiendas información de identificación personal de niños menores de 13 años. Si nos damos cuenta de que hemos recopilado información personal de un niño menor de 13 años sin verificación del consentimiento de los padres, tomamos medidas para eliminar esa información de nuestros servidores."
+    },
+    "changesToPolicy": {
+      "title": "Cambios a Esta Política de Privacidad",
+      "content": "Podemos actualizar nuestra Política de Privacidad de vez en cuando. Le notificaremos cualquier cambio publicando la nueva Política de Privacidad en esta página. Se le aconseja revisar esta Política de Privacidad periódicamente para cualquier cambio."
+    },
+    "contactUs": {
+      "title": "Contáctenos",
+      "content": "Si tiene alguna pregunta sobre esta Política de Privacidad, contáctenos en contact@apptolast.com."
+    }
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "lastUpdated": "24 de Mayo de 2024",
+    "acceptance": {
+      "title": "Aceptación de los Términos",
+      "content": "Al acceder y utilizar los servicios de AppToLast, usted reconoce que ha leído, entendido y acepta estar sujeto a estos Términos de Servicio."
+    },
+    "services": {
+      "title": "Descripción de los Servicios",
+      "content": "AppToLast proporciona servicios de desarrollo de aplicaciones móviles nativas, incluyendo, entre otros, desarrollo de aplicaciones iOS y Android, soluciones empresariales y servicios de consultoría."
+    },
+    "intellectual": {
+      "title": "Derechos de Propiedad Intelectual",
+      "content": "Todos los derechos de propiedad intelectual relacionados con nuestros servicios, incluyendo software, diseños y metodologías, siguen siendo propiedad exclusiva de AppToLast."
+    },
+    "userConduct": {
+      "title": "Conducta del Usuario",
+      "content": "Los usuarios aceptan no utilizar nuestros servicios para ningún propósito ilegal o de ninguna manera que pueda dañar a AppToLast o a sus usuarios."
+    },
+    "limitationLiability": {
+      "title": "Limitación de Responsabilidad",
+      "content": "AppToLast no será responsable de ningún daño indirecto, incidental, especial, consecuente o punitivo resultante del uso de nuestros servicios."
+    },
+    "indemnification": {
+      "title": "Indemnización",
+      "content": "Usted acepta indemnizar y eximir de responsabilidad a AppToLast y sus afiliados, funcionarios, agentes y empleados de cualquier reclamo o demanda, incluidos los honorarios razonables de abogados, realizados por terceros debido a su incumplimiento de estos Términos de Servicio o que surjan de él."
+    },
+    "governingLaw": {
+      "title": "Ley Aplicable",
+      "content": "Estos Términos de Servicio se regirán e interpretarán de acuerdo con las leyes de la jurisdicción donde AppToLast tiene su sede, sin tener en cuenta sus disposiciones sobre conflicto de leyes."
+    },
+    "changesToTerms": {
+      "title": "Cambios a Estos Términos",
+      "content": "Nos reservamos el derecho de modificar estos Términos de Servicio en cualquier momento. Le notificaremos cualquier cambio publicando los nuevos Términos en esta página. Su uso continuo de los servicios después de dichas modificaciones constituye su aceptación de los nuevos Términos."
     }
   }
 }

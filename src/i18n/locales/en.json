@@ -1,7 +1,7 @@
 {
   "nav": {
-    "features": "Features",
-    "services": "Services",
+    "features": "Why AppToLast?",
+    "services": "Our Solutions",
     "clients": "Clients",
     "contact": "Contact",
     "getStarted": "Get Started"
@@ -14,41 +14,53 @@
   },
   "features": {
     "title": "Why AppToLast?",
-    "subtitle": "We stand out for our obsession with quality, speed, and security. We don't just build apps; we build your users' trust.",
+    "subtitle": "AppToLast stands out because we don't just create applications; we accompany each client on an authentic and personalized digital transformation. Our team combines expertise in native development (Swift for iOS, Kotlin for Android) with know-how in automation and security, allowing us to build reliable, fast, and secure solutions.",
     "items": {
-      "native": {
-        "title": "Native Development",
-        "description": "Pure native code for iOS and Android ensuring optimal performance and security"
+      "multiplatform": {
+        "title": "Multiplatform Experts",
+        "description": "Development of native and hybrid apps to cover all your needs, from prototypes to highly scalable products."
+      },
+      "automation": {
+        "title": "Intelligent Automation",
+        "description": "We integrate automated processes into your apps and corporate systems to save time, minimize errors, and boost your business."
+      },
+      "cleanCode": {
+        "title": "Clean & Maintainable Code",
+        "description": "Our solutions maintain high standards of readability and scalability, facilitating updates and new functionalities."
       },
       "security": {
-        "title": "Enhanced Security",
-        "description": "Built-in security features and best practices for protected data handling"
+        "title": "Security & Trust",
+        "description": "We implement advanced security controls and best practices to protect your users' information."
       },
       "speed": {
-        "title": "Lightning Fast",
-        "description": "Optimized performance for smooth user experience and quick load times"
-      },
-      "code": {
-        "title": "Clean Code",
-        "description": "Maintainable and scalable code following industry best practices"
+        "title": "Speed & Efficiency",
+        "description": "Apps optimized for an agile experience at both client and backend levels."
       }
     }
   },
   "services": {
     "title": "Our Custom Solutions",
-    "subtitle": "From automating internal processes to creating mobile apps that your customers will love, we have the perfect solution for every digital challenge.",
+    "subtitle": "At AppToLast, we have developed more than 15 projects in multiple languages and frameworks, adapting to each client's challenges. Explore some real-world examples:",
     "items": {
-      "ios": {
-        "title": "iOS Development",
-        "description": "Native Swift development for iPhone and iPad applications"
+      "educationalAutomation": {
+        "title": "Educational Management Automation",
+        "description": "Project for Alba Academy in Edinburgh: We automate administrative processes and communication between teachers, students, and parents, facilitating secure access and efficiency in educational management."
       },
-      "android": {
-        "title": "Android Development",
-        "description": "Native Kotlin development for Android devices"
+      "mobileApps": {
+        "title": "Custom Mobile Applications",
+        "description": "FamilyFilmApp: Family management app with notifications, personalized tracking, and user control. InvernaderosAPI: System to monitor and control parameters in greenhouses, facilitating online and offline agricultural management."
       },
-      "enterprise": {
-        "title": "Enterprise Solutions",
-        "description": "Scalable applications for large organizations"
+      "aiApis": {
+        "title": "Artificial Intelligence & Modern APIs",
+        "description": "GameChangerIA: Platform that uses AI to automate the development of full-stack web applications, reducing development times and costs. FileUploadGoogle: Solution for managing and automating file uploads to Google Drive, scalable and secure."
+      },
+      "enterpriseSolutions": {
+        "title": "Tailored Business Solutions",
+        "description": "Server monitoring apps, integration with management systems (ERP, CRM), and internal automation software for businesses of any size."
+      },
+      "techFlexibility": {
+        "title": "Technological Flexibility",
+        "description": "Projects in Kotlin, Python, Java, TypeScript, and Rust, allowing us to adapt to your stack and specific needs."
       }
     }
   },
@@ -62,21 +74,22 @@
       }
     }
   },
-  "contact": {
-    "title": "Get In Touch",
-    "subtitle": "Ready to build your next mobile app? Let's discuss your project.",
-    "form": {
-      "name": "Name",
-      "namePlaceholder": "Your name",
-      "email": "Email",
-      "emailPlaceholder": "your@email.com",
-      "message": "Message",
-      "messagePlaceholder": "Tell us about your project",
-      "send": "Send Message",
-      "sending": "Sending",
-      "success": "Email sended"
-    }
-  },
+"contact": {
+  "title": "Ready to Transform Your Business?",
+  "subtitle": "Contact us today to discuss your project. We're eager to hear about your ideas and help you bring them to life.",
+  "form": {
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "message": "Message",
+    "messagePlaceholder": "Tell us about your project",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "Error sending message. Please try again."
+  }
+},
   "footer": {
     "slogan": "Building tomorrow's mobile experiences with native excellence. Fast, reliable, and secure solutions for your business.",
     "services": "Services",
@@ -86,99 +99,88 @@
     "terms": "Terms of Service",
     "rights": "All rights reserved."
   },
-  "terms": {
-    "title": "Terms of Service",
-    "sections": {
-      "acceptance": {
-        "title": "Acceptance of Terms",
-        "content": "By accessing and using AppToLast's services, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service."
-      },
-      "services": {
-        "title": "Description of Services",
-        "content": "AppToLast provides native mobile application development services, including but not limited to iOS and Android app development, enterprise solutions, and consulting services."
-      },
-      "intellectual": {
-        "title": "Intellectual Property Rights",
-        "content": "All intellectual property rights in relation to our services, including software, designs, and methodologies, remain the exclusive property of AppToLast."
-      },
-      "liability": {
-        "title": "Limitation of Liability",
-        "content": "AppToLast shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of our services."
-      },
-      "termination": {
-        "title": "Termination",
-        "content": "We reserve the right to terminate or suspend access to our services immediately, without prior notice or liability, for any reason whatsoever."
-      }
-    }
+  "language": {
+    "es": "Spanish",
+    "en": "English"
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last updated: 24/05/2024",
-    "sections": {
-      "introduction": {
-        "title": "Introduction",
-        "content": "Welcome to AppToLast. We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site."
-      },
-      "informationCollection": {
-        "title": "Information We Collect",
-        "content": "We may collect information about you in a variety of ways. The information we may collect on the Site includes:",
-        "points": {
-          "personalData": "Personally identifiable information, such as your name, email address, and telephone number, that you voluntarily give to us when you contact us or use our services.",
-          "derivativeData": "Information our servers automatically collect when you access the Site, such as your IP address, your browser type, your operating system, your access times, and the pages you have viewed directly before and after accessing the Site.",
-          "trackingData": "We may use cookies and similar tracking technologies to track your activity on our Site and hold certain information."
-        }
-      },
-      "useOfInformation": {
-        "title": "Use of Your Information",
-        "content": "Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use information collected about you via the Site to:",
-        "points": {
-          "provideServices": "Provide, maintain, and improve our services.",
-          "communication": "Communicate with you about your project or inquiries.",
-          "analytics": "Monitor and analyze usage and trends to improve your experience with the Site.",
-          "legal": "Comply with legal obligations."
-        }
-      },
-      "sharingOfInformation": {
-        "title": "Disclosure of Your Information",
-        "content": "We may share information we have collected about you in certain situations. Your information may be disclosed as follows:",
-        "points": {
-          "byLaw": "If we are required to do so by law or in response to valid requests by public authorities.",
-          "serviceProviders": "We may share your information with third-party service providers that perform services for us or on our behalf, including payment processing, data analysis, email delivery, hosting services, and customer service.",
-          "businessTransfers": "In connection with any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company."
-        }
-      },
-      "dataSecurity": {
-        "title": "Security of Your Information",
-        "content": "We use administrative, technical, and physical security measures to help protect your personal information. While we have taken reasonable steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable, and no method of data transmission can be guaranteed against any interception or other type of misuse."
-      },
-      "yourRights": {
-        "title": "Your Privacy Rights",
-        "content": "Depending on your location, you may have the following rights regarding your personal data:",
-        "points": {
-          "access": "The right to request access to the personal data we hold about you.",
-          "rectification": "The right to request that we correct any inaccurate personal data.",
-          "erasure": "The right to request that we delete your personal data.",
-          "portability": "The right to receive your personal data in a structured, commonly used, and machine-readable format.",
-          "object": "The right to object to the processing of your personal data."
-        },
-        "exercise": "To exercise these rights, please contact us using the contact information provided below."
-      },
-      "cookies": {
-        "title": "Cookies and Tracking Technologies",
-        "content": "We use cookies and similar tracking technologies to track the activity on our Service and hold certain information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service."
-      },
-      "childrensPrivacy": {
-        "title": "Children's Privacy",
-        "content": "Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If you are a parent or guardian and you are aware that your child has provided us with Personal Data, please contact us."
-      },
-      "changes": {
-        "title": "Changes to This Privacy Policy",
-        "content": "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes."
-      },
-      "contact": {
-        "title": "Contact Us",
-        "content": "If you have any questions or comments about this Privacy Policy, please contact us by email <a href='mailto:admin@apptolast.com' class='text-blue-400 hover:underline'>here.</a>"
-      }
+    "lastUpdated": "May 24, 2024",
+    "introduction": {
+      "title": "Introduction",
+      "content": "AppToLast is committed to protecting the privacy of its users. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website apptolast.github.io/apptolast-website/ and use our services."
+    },
+    "informationCollection": {
+      "title": "Information We Collect",
+      "content": "We may collect personal information such as your name, email address, and contact details when you interact with our services, for example, when you fill out a contact form or subscribe to our newsletter."
+    },
+    "useOfInformation": {
+      "title": "How We Use Your Information",
+      "content": "The information we collect is used to provide, maintain, and improve our services, to communicate with you, to respond to your inquiries, and to send you updates or promotional materials. We may also use this information for internal analytics and research to enhance user experience."
+    },
+    "informationSharing": {
+      "title": "Sharing Your Information",
+      "content": "AppToLast does not sell, trade, or otherwise transfer your personally identifiable information to outside parties. This does not include trusted third parties who assist us in operating our website, conducting our business, or serving our users, so long as those parties agree to keep this information confidential."
+    },
+    "dataSecurity": {
+      "title": "Data Security",
+      "content": "We implement a variety of security measures to maintain the safety of your personal information when you enter, submit, or access your personal information. However, no method of transmission over the Internet or method of electronic storage is 100% secure."
+    },
+    "userRights": {
+      "title": "Your Rights",
+      "content": "You have the right to access, update, or delete your personal information. If you wish to exercise any of these rights, please contact us."
+    },
+    "thirdPartyLinks": {
+      "title": "Third-Party Links",
+      "content": "Our website may contain links to third-party websites that are not operated by us. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services."
+    },
+    "childrensPrivacy": {
+      "title": "Children's Privacy",
+      "content": "Our services are not intended for anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. If we become aware that we have collected personal information from a child under 13 without verification of parental consent, we take steps to remove that information from our servers."
+    },
+    "changesToPolicy": {
+      "title": "Changes to This Privacy Policy",
+      "content": "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes."
+    },
+    "contactUs": {
+      "title": "Contact Us",
+      "content": "If you have any questions about this Privacy Policy, please contact us at contact@apptolast.com."
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "May 24, 2024",
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "content": "By accessing and using AppToLast services, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service."
+    },
+    "services": {
+      "title": "Description of Services",
+      "content": "AppToLast provides native mobile application development services, including but not limited to iOS and Android app development, enterprise solutions, and consulting services."
+    },
+    "intellectual": {
+      "title": "Intellectual Property Rights",
+      "content": "All intellectual property rights related to our services, including software, designs, and methodologies, remain the exclusive property of AppToLast."
+    },
+    "userConduct": {
+      "title": "User Conduct",
+      "content": "Users agree not to use our services for any unlawful purpose or in any way that could harm AppToLast or its users."
+    },
+    "limitationLiability": {
+      "title": "Limitation of Liability",
+      "content": "AppToLast shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from the use of our services."
+    },
+    "indemnification": {
+      "title": "Indemnification",
+      "content": "You agree to indemnify and hold harmless AppToLast and its affiliates, officers, agents, and employees from any claim or demand, including reasonable attorneys' fees, made by any third party due to or arising out of your breach of these Terms of Service."
+    },
+    "governingLaw": {
+      "title": "Governing Law",
+      "content": "These Terms of Service shall be governed by and construed in accordance with the laws of the jurisdiction where AppToLast is headquartered, without regard to its conflict of law provisions."
+    },
+    "changesToTerms": {
+      "title": "Changes to These Terms",
+      "content": "We reserve the right to modify these Terms of Service at any time. We will notify you of any changes by posting the new Terms on this page. Your continued use of the services after any such modifications constitutes your acceptance of the new Terms."
     }
   }
 }

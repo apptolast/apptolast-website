@@ -1,4 +1,4 @@
-import { Github, Linkedin, X } from 'lucide-react';
+import { Github, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'wouter';
 
@@ -18,9 +18,6 @@ const Footer = () => {
               <a href="https://github.com/apptolast" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
                 <Github className="h-6 w-6" />
               </a>
-              {/* <a href="#" className="text-gray-400 hover:text-white">
-                <Linkedin className="h-6 w-6" />
-              </a> */}
               <a href="https://x.com/apptolast" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
                 <X className="h-6 w-6" />
               </a>
@@ -31,9 +28,9 @@ const Footer = () => {
               <div>
                 <h4 className="text-lg font-semibold mb-4">{t('footer.services')}</h4>
                 <ul className="space-y-2">
-                  <li><a href="#" className="text-gray-400 hover:text-white">{t('services.items.ios.title')}</a></li>
-                  <li><a href="#" className="text-gray-400 hover:text-white">{t('services.items.android.title')}</a></li>
-                  <li><a href="#" className="text-gray-400 hover:text-white">{t('services.items.enterprise.title')}</a></li>
+                  <li><a href="#services" className="text-gray-400 hover:text-white">{t('services.items.mobileApps.title')}</a></li>
+                  <li><a href="#services" className="text-gray-400 hover:text-white">{t('services.items.aiApis.title')}</a></li>
+                  <li><a href="#services" className="text-gray-400 hover:text-white">{t('services.items.enterpriseSolutions.title')}</a></li>
                 </ul>
               </div>
               <div>
