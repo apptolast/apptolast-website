@@ -4,7 +4,7 @@
     "details": [
       {
         "appID": "com.apptolast.greenhousefronts.GreenhouseFronts",
-        "paths": [ "/*" ]
+        "paths": [ "/", "/?*" ]
       }
     ]
   }
