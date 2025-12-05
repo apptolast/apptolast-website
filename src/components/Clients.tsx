@@ -7,7 +7,7 @@ const Clients = () => {
     {
       titleKey: "clients.items.academia_alba.title",
       descriptionKey: "clients.items.academia_alba.description",
-      image: "https://scontent.fbrs5-1.fna.fbcdn.net/v/t1.6435-1/204147201_264208628832707_7581721214844286923_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=44S2eRaC18oQ7kNvwHb89bd&_nc_oc=AdmKSPUK1IQzBuDCn0Ve_HwJ0zYneuogsWEVELdS2QVVltSV3iYh8RMhrmzS7N1QlanCBOMFd2Y2ihoukWPiPZ9f&_nc_zt=24&_nc_ht=scontent.fbrs5-1.fna&_nc_gid=cNNYka_HXg-vUj8yblBC5g&oh=00_AffCfjjyE4ZCLi3K9MMVaGujyhNrfXRX2OzCurZpnnN0hA&oe=692B61ED",
+      image: "/images/alba-academy-logo.jpg",
       link: "https://www.asociacionalba.org.uk/"
     },
   ];

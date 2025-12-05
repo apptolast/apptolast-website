@@ -20,15 +20,18 @@ const Navbar = () => {
               <span className="text-xl font-bold">AppToLast</span>
             </Link>
           </div>
-          <div className="hidden md:flex md:items-center md:space-x-4">
-            <a href="#features" className="hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
-              {t('nav.features')}
+          <div className="hidden lg:flex lg:items-center lg:space-x-4">
+            <a href="#mission-vision" className="hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
+              {t('nav.mission')}
             </a>
             <a href="#services" className="hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
               {t('nav.services')}
             </a>
             <a href="#clients" className="hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
               {t('nav.clients')}
+            </a>
+            <a href="#team" className="hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
+              {t('nav.team')}
             </a>
             <a href="#contact" className="hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
               {t('nav.contact')}
@@ -38,7 +41,7 @@ const Navbar = () => {
               {t('nav.getStarted')}
             </a>
           </div>
-          <div className="md:hidden flex items-center gap-4">
+          <div className="lg:hidden flex items-center gap-4">
             <LanguageSwitcher />
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -50,14 +53,14 @@ const Navbar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a
-              href="#features"
+              href="#mission-vision"
               onClick={closeMenu}
               className="hover:text-blue-500 block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200"
             >
-              {t('nav.features')}
+              {t('nav.mission')}
             </a>
             <a
               href="#services"
@@ -65,6 +68,13 @@ const Navbar = () => {
               className="hover:text-blue-500 block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200"
             >
               {t('nav.services')}
+            </a>
+            <a
+              href="#team"
+              onClick={closeMenu}
+              className="hover:text-blue-500 block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200"
+            >
+              {t('nav.team')}
             </a>
             <a
               href="#clients"

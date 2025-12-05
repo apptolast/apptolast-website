@@ -1,30 +1,34 @@
 import { Router, Switch, Route } from 'wouter';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import MissionVision from './components/MissionVision';
 import Features from './components/Features';
 import Services from './components/Services';
 import Clients from './components/Clients';
+import Team from './components/Team';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import TermsOfService from './components/TermsOfService';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import ScrollToTop from './helpers/ScrollToTop';
-import AdBanner from './components/AdBanner';
+{/* import AdBanner from './components/AdBanner'; */}
 
 function App() {
   return (
     <Router base="/">
       <ScrollToTop />
       <div className="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800 text-white">
-        <AdBanner />
+        {/* <AdBanner /> */ }
         <Navbar />
         <Switch>
           <Route path="/">
             <main>
               <Hero />
+              <MissionVision />
               <Features />
               <Services />
               <Clients />
+              <Team />
               <Contact />
             </main>
           </Route>

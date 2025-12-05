@@ -1,7 +1,9 @@
 {
   "nav": {
+    "mission": "Nosotros",
     "features": "¿Por qué AppToLast?",
-    "services": "Nuestras Soluciones",
+    "services": "Soluciones",
+    "team": "Equipo",
     "clients": "Clientes",
     "contact": "Contacto",
     "getStarted": "Comenzar"
@@ -11,6 +13,27 @@
     "subtitle": "En AppToLast no solo creamos software; diseñamos el futuro de tu empresa. Optimizamos tus procesos y te conectamos con tus clientes a través de soluciones web y móviles de vanguardia. Enfócate en crecer; nosotros nos encargamos de la tecnología.",
     "startProject": "Iniciar Proyecto",
     "learnMore": "Saber Más"
+  },
+  "missionVision": {
+    "title": "Nuestro Propósito y Futuro",
+    "subtitle": "Somos el aliado estratégico para empresas que buscan una auténtica transformación digital.",
+    "mission": {
+      "title": "Misión",
+      "content": "Ser el aliado estratégico que impulsa la modernización y digitalización real de las empresas. Utilizamos tecnologías de vanguardia como Kotlin Multiplatform (KMP) para unificar desarrollos y nuestra propia infraestructura backend segura (VPN) para garantizar el control total. Transformamos procesos manuales en flujos automatizados eficientes."
+    },
+    "vision": {
+      "title": "Visión",
+      "content": "Convertirnos en el referente del sector en integración de Inteligencia Artificial y automatización inteligente. Aspiramos a un futuro donde las empresas exploten todo el potencial de sus datos mediante bases de datos vectoriales y protocolos MCP, eliminando la carga operativa innecesaria."
+    },
+    "stack": {
+      "title": "Nuestro Stack Diferencial",
+      "items": {
+        "agile": "Desarrollo Ágil (KMP): Centralizamos lógica con Kotlin Multiplatform.",
+        "automation": "Automatización (n8n & MCP): Orquestación de flujos y conexión vía Model Context Protocol.",
+        "data": "Data Intelligence: Bases de datos vectoriales para búsquedas semánticas e IA.",
+        "infra": "Infraestructura Propia: Backend propio en VPNs privadas para máxima seguridad."
+      }
+    }
   },
   "features": {
     "title": "¿Por qué AppToLast?",
@@ -64,40 +87,61 @@
       }
     }
   },
-  "clients": {
-    "title": "Nuestros Socios de Éxito",
-    "subtitle": "No solo trabajamos para nuestros clientes, colaboramos con ellos para alcanzar nuevas cotas de éxito. Su crecimiento es nuestro mejor testimonio.",
-    "items": {
-      "academia_alba": {
-        "title": "Academia Alba en Edimburgo",
-        "description": "Automatización de procesos y ayuda en la gestión de profesores, alumnos y padres. "
+  "team": {
+    "title": "Nuestro Equipo",
+    "subtitle": "Los arquitectos de tu transformación digital.",
+    "members": {
+      "alberto": {
+        "role": "Co-Founder & Lead Mobile Architect",
+        "bio": "El arquitecto visual. Especialista en KMP, rompe la barrera entre sistemas operativos creando interfaces nativas unificadas con una sola base de código.",
+        "superpower": "Convergencia Multiplataforma"
+      },
+      "pablo": {
+        "role": "Co-Founder & Head of Infrastructure",
+        "bio": "El ingeniero de la sala de máquinas. Diseña y gestiona nuestra infraestructura privada, asegurando que los servicios sean rápidos, escalables e invulnerables.",
+        "superpower": "Infraestructura Resiliente"
+      },
+      "jesus": {
+        "role": "Business Strategy & Automation Lead",
+        "bio": "Estratega y experto en Sistemas Industriales. Traduce necesidades de negocio complejas en flujos de automatización que ahorran miles de horas.",
+        "superpower": "Automatización Estratégica"
       }
     }
   },
-"contact": {
-  "title": "¿Listo para Transformar tu Negocio?",
-  "subtitle": "Contáctanos hoy para discutir tu proyecto. Estamos ansiosos por escuchar tus ideas y ayudarte a hacerlas realidad.",
-  "form": {
-    "name": "Nombre",
-    "namePlaceholder": "Tu nombre",
-    "email": "Correo",
-    "emailPlaceholder": "tu@correo.com",
-    "message": "Mensaje",
-    "messagePlaceholder": "Cuéntanos sobre tu proyecto",
-    "send": "Enviar Mensaje",
-    "sending": "Enviando...",
-    "success": "¡Mensaje enviado correctamente!",
-    "error": "Error al enviar el mensaje. Por favor, inténtalo de nuevo."
-  }
-},
-  "footer": {   
-    "slogan": "Construyendo experiencias móviles del mañana con excelencia nativa. Soluciones rápidas, fiables y seguras para tu negocio.",
+  "clients": {
+    "title": "Nuestros Clientes Valiosos",
+    "subtitle": "Hemos tenido el privilegio de trabajar con una diversa gama de clientes, ayudándolos a alcanzar sus objetivos digitales.",
+    "items": {
+      "academia_alba": {
+        "title": "Academia Alba",
+        "description": "Automatización de gestión educativa."
+      }
+    }
+  },
+  "contact": {
+    "title": "¿Listo para Transformar tu Negocio?",
+    "subtitle": "Contáctanos hoy para discutir tu proyecto. Estamos ansiosos por escuchar tus ideas y ayudarte a hacerlas realidad.",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre completo",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "tu@email.com",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntanos sobre tu proyecto...",
+      "success": "¡Mensaje enviado con éxito! Nos pondremos en contacto contigo pronto.",
+      "error": "Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo más tarde.",
+      "sending": "Enviando...",
+      "send": "Enviar Mensaje"
+    }
+  },
+  "footer": {
+    "slogan": "Diseñando el futuro digital.",
     "services": "Servicios",
     "company": "Empresa",
     "legal": "Legal",
+    "rights": "Todos los derechos reservados.",
     "privacy": "Política de Privacidad",
-    "terms": "Términos de Servicio",
-    "rights": "© AppToLast. Todos los derechos reservados."
+    "terms": "Términos de Servicio"
   },
   "language": {
     "es": "Español",

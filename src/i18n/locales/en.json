@@ -1,7 +1,9 @@
 {
   "nav": {
+    "mission": "About Us",
     "features": "Why AppToLast?",
-    "services": "Our Solutions",
+    "services": "Solutions",
+    "team": "Team",
     "clients": "Clients",
     "contact": "Contact",
     "getStarted": "Get Started"
@@ -11,6 +13,27 @@
     "subtitle": "At AppToLast, we don't just create software; we design the future of your company. We optimize your processes and connect you with your customers through cutting-edge web and mobile solutions. Focus on growth; we'll handle the technology.",
     "startProject": "Start Your Project",
     "learnMore": "Learn More"
+  },
+  "missionVision": {
+    "title": "Our Purpose and Future",
+    "subtitle": "We are a strategic ally for companies seeking authentic digital transformation.",
+    "mission": {
+      "title": "Mission",
+      "content": "To be the strategic partner that drives the real modernization and digitalization of companies. We use cutting-edge technologies like Kotlin Multiplatform (KMP) to unify development and our own secure backend infrastructure (VPN) to ensure total control. We transform manual processes into efficient automated workflows."
+    },
+    "vision": {
+      "title": "Vision",
+      "content": "To become the industry benchmark in the integration of Artificial Intelligence and intelligent automation. We aspire to a future where companies exploit the full potential of their data through vector databases and MCP protocols, eliminating unnecessary operational burdens."
+    },
+    "stack": {
+      "title": "Our Differentiating Stack",
+      "items": {
+        "agile": "Agile Development (KMP): We centralize logic with Kotlin Multiplatform.",
+        "automation": "Automation (n8n & MCP): Workflow orchestration and connection via Model Context Protocol.",
+        "data": "Data Intelligence: Vector databases for semantic searches and AI.",
+        "infra": "Proprietary Infrastructure: Our own backend on private VPNs for maximum security."
+      }
+    }
   },
   "features": {
     "title": "Why AppToLast?",
@@ -64,40 +87,61 @@
       }
     }
   },
-  "clients": {
-    "title": "Our Success Partners",
-    "subtitle": "We don't just work for our clients; we collaborate with them to reach new heights of success. Their growth is our best testament.",
-    "items": {
-      "academia_alba": {
-        "title": "Alba Academy in Edinburgh",
-        "description": "Process automation and assistance in managing teachers, students, and parents."
+  "team": {
+    "title": "Our Team",
+    "subtitle": "The architects of your digital transformation.",
+    "members": {
+      "alberto": {
+        "role": "Co-Founder & Lead Mobile Architect",
+        "bio": "The visual architect. KMP specialist, breaking the barrier between operating systems by creating unified native interfaces with a single code base.",
+        "superpower": "Cross-Platform Convergence"
+      },
+      "pablo": {
+        "role": "Co-Founder & Head of Infrastructure",
+        "bio": "The engine room engineer. Designs and manages our private infrastructure, ensuring services are fast, scalable, and invulnerable.",
+        "superpower": "Resilient Infrastructure"
+      },
+      "jesus": {
+        "role": "Business Strategy & Automation Lead",
+        "bio": "Strategist and Industrial Systems expert. Translates complex business needs into automation workflows that save thousands of hours.",
+        "superpower": "Strategic Automation"
       }
     }
   },
-"contact": {
-  "title": "Ready to Transform Your Business?",
-  "subtitle": "Contact us today to discuss your project. We're eager to hear about your ideas and help you bring them to life.",
-  "form": {
-    "name": "Name",
-    "namePlaceholder": "Your name",
-    "email": "Email",
-    "emailPlaceholder": "your@email.com",
-    "message": "Message",
-    "messagePlaceholder": "Tell us about your project",
-    "send": "Send Message",
-    "sending": "Sending...",
-    "success": "Message sent successfully!",
-    "error": "Error sending message. Please try again."
-  }
-},
+  "clients": {
+    "title": "Our Valued Clients",
+    "subtitle": "We've had the privilege of working with a diverse range of clients, helping them achieve their digital goals.",
+    "items": {
+      "academia_alba": {
+        "title": "Academia Alba",
+        "description": "Educational management automation."
+      }
+    }
+  },
+  "contact": {
+    "title": "Ready to Transform Your Business?",
+    "subtitle": "Contact us today to discuss your project. We're eager to hear about your ideas and help you bring them to life.",
+    "form": {
+        "name": "Name",
+        "namePlaceholder": "Your full name",
+        "email": "Email",
+        "emailPlaceholder": "you@email.com",
+        "message": "Message",
+        "messagePlaceholder": "Tell us about your project...",
+        "success": "Message sent successfully! We'll get back to you soon.",
+        "error": "There was an error sending the message. Please try again later.",
+        "sending": "Sending...",
+        "send": "Send Message"
+    }
+  },
   "footer": {
-    "slogan": "Building tomorrow's mobile experiences with native excellence. Fast, reliable, and secure solutions for your business.",
+    "slogan": "Designing the digital future.",
     "services": "Services",
     "company": "Company",
     "legal": "Legal",
+    "rights": "All rights reserved.",
     "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "rights": "All rights reserved."
+    "terms": "Terms of Service"
   },
   "language": {
     "es": "Spanish",
