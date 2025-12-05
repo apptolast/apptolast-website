@@ -1,95 +1,95 @@
 {
   "nav": {
-    "mission": "Nosotros",
-    "features": "¿Por qué AppToLast?",
-    "services": "Soluciones",
+    "mission": "Filosofía",
+    "features": "Servicios",
+    "services": "Proyectos",
     "team": "Equipo",
     "clients": "Clientes",
     "contact": "Contacto",
-    "getStarted": "Comenzar"
+    "getStarted": "Auditoría Gratis"
   },
   "hero": {
-    "title": "Transforma Tu Negocio con Automatización Inteligente y Desarrollo Multiplataforma",
-    "subtitle": "En AppToLast no solo creamos software; diseñamos el futuro de tu empresa. Optimizamos tus procesos y te conectamos con tus clientes a través de soluciones web y móviles de vanguardia. Enfócate en crecer; nosotros nos encargamos de la tecnología.",
-    "startProject": "Iniciar Proyecto",
-    "learnMore": "Saber Más"
+    "title": "Ingeniería de Software de Élite y Automatización Inteligente",
+    "subtitle": "No somos una factoría de software; somos tu socio tecnológico de alto nivel. Especialistas en Kotlin Multiplatform y Arquitecturas Privadas para empresas que exigen escalabilidad y control total.",
+    "startProject": "Agendar Consultoría",
+    "learnMore": "Explorar Servicios"
   },
   "missionVision": {
-    "title": "Nuestro Propósito y Futuro",
-    "subtitle": "Somos el aliado estratégico para empresas que buscan una auténtica transformación digital.",
+    "title": "El Estándar AppToLast",
+    "subtitle": "Redefiniendo la consultoría tecnológica mediante la unificación de código y la propiedad total de los datos.",
     "mission": {
-      "title": "Misión",
-      "content": "Ser el aliado estratégico que impulsa la modernización y digitalización real de las empresas. Utilizamos tecnologías de vanguardia como Kotlin Multiplatform (KMP) para unificar desarrollos y nuestra propia infraestructura backend segura (VPN) para garantizar el control total. Transformamos procesos manuales en flujos automatizados eficientes."
+      "title": "Nuestra Misión",
+      "content": "Eliminar la fricción tecnológica. Impulsamos la modernización real mediante Kotlin Multiplatform (KMP) para reducir costes de mantenimiento a la mitad, y desplegamos infraestructuras privadas (VPN) para devolverte el control absoluto de tus activos."
     },
     "vision": {
-      "title": "Visión",
-      "content": "Convertirnos en el referente del sector en integración de Inteligencia Artificial y automatización inteligente. Aspiramos a un futuro donde las empresas exploten todo el potencial de sus datos mediante bases de datos vectoriales y protocolos MCP, eliminando la carga operativa innecesaria."
+      "title": "Nuestra Visión",
+      "content": "Un futuro donde la IA no es una 'caja negra'. Integramos Inteligencia Artificial transparente y bases de datos vectoriales en tus propios servidores, garantizando que la automatización trabaje para ti, sin comprometer tu privacidad."
     },
     "stack": {
-      "title": "Nuestro Stack Diferencial",
+      "title": "Arquitectura de Vanguardia",
       "items": {
-        "agile": "Desarrollo Ágil (KMP): Centralizamos lógica con Kotlin Multiplatform.",
-        "automation": "Automatización (n8n & MCP): Orquestación de flujos y conexión vía Model Context Protocol.",
-        "data": "Data Intelligence: Bases de datos vectoriales para búsquedas semánticas e IA.",
-        "infra": "Infraestructura Propia: Backend propio en VPNs privadas para máxima seguridad."
+        "agile": "Unificación (KMP): Una sola base de código para iOS, Android y Web.",
+        "automation": "Orquestación (n8n): Automatización de flujos de negocio complejos.",
+        "data": "Cerebro Propio: IAs privadas conectadas a tus datos vectoriales.",
+        "infra": "Control Total: Infraestructura desplegada en tu propia nube o VPN."
       }
     }
   },
   "features": {
-    "title": "¿Por qué AppToLast?",
-    "subtitle": "AppToLast destaca porque no solo creamos aplicaciones, sino que acompañamos a cada cliente en una transformación digital auténtica y personalizada. Nuestro equipo combina experiencia en desarrollo nativo (Swift para iOS, Kotlin para Android) con know-how en automatización y seguridad, permitiéndonos construir soluciones fiables, rápidas y seguras.",
+    "title": "Servicios Especializados",
+    "subtitle": "Dejamos de lado lo genérico. Nos enfocamos en áreas técnicas críticas donde somos autoridad indiscutible.",
     "items": {
       "multiplatform": {
-        "title": "Expertos Multiplataforma",
-        "description": "Desarrollo de apps nativas e híbridas para cubrir todas tus necesidades, desde prototipos hasta productos altamente escalables."
+        "title": "Desarrollo Multiplataforma Nativo",
+        "description": "Creamos aplicaciones para iOS y Android compartiendo el 100% de la lógica de negocio. Reduce tiempos de desarrollo y errores sin sacrificar el rendimiento nativo."
       },
       "automation": {
-        "title": "Automatización Inteligente",
-        "description": "Integramos procesos automatizados en tus apps y sistemas corporativos para ahorrar tiempo, minimizar errores y potenciar tu negocio."
+        "title": "Consultoría de Automatización e IA",
+        "description": "Auditamos tus procesos manuales y desplegamos agentes de IA autónomos que trabajan 24/7, integrando tus herramientas actuales (ERP, CRM) sin fricción."
       },
       "cleanCode": {
-        "title": "Código Limpio y Mantenible",
-        "description": "Nuestras soluciones mantienen altos estándares de legibilidad y escalabilidad, lo que facilita actualizaciones y nuevas funcionalidades."
+        "title": "Rescate y Refactorización",
+        "description": "¿Tu proyecto actual es inmantinible? Aplicamos Clean Architecture y principios SOLID para sanear bases de código heredadas y hacerlas escalables de nuevo."
       },
       "security": {
-        "title": "Seguridad y Confianza",
-        "description": "Implementamos controles de seguridad avanzados y buenas prácticas para proteger la información de tus usuarios."
+        "title": "Infraestructura & Ciberseguridad",
+        "description": "Diseñamos arquitecturas de nube privada y VPNs corporativas. Protege tu propiedad intelectual y datos de clientes con estándares bancarios."
       },
       "speed": {
-        "title": "Velocidad y Eficiencia",
-        "description": "Apps optimizadas para una experiencia ágil tanto a nivel cliente como backend."
+        "title": "Auditoría de Rendimiento",
+        "description": "Optimizamos aplicaciones lentas y servidores saturados. Mejoramos los tiempos de respuesta para retener a tus usuarios y reducir costes de cloud."
       }
     }
   },
   "services": {
-    "title": "Nuestras Soluciones Personalizadas",
-    "subtitle": "En AppToLast hemos desarrollado más de 15 proyectos en múltiples lenguajes y frameworks, adaptándonos a los retos de cada cliente. Aquí algunos ejemplos reales de nuestras soluciones:",
+    "title": "Casos de Éxito e Impacto",
+    "subtitle": "Resultados tangibles. Desde startups que necesitan velocidad hasta corporaciones que requieren robustez.",
     "items": {
       "educationalAutomation": {
-        "title": "Automatización de Gestión Educativa",
-        "description": "Proyecto para Alba Academy en Edimburgo: Automatizamos procesos administrativos y comunicación entre profesores, alumnos y padres, facilitando el acceso seguro y la eficiencia en la gestión educativa."
+        "title": "Alba Academy (EdTech)",
+        "description": "Transformación digital completa: Automatización de matrículas y pagos, reduciendo la carga administrativa un 70% mediante n8n y apps móviles personalizadas."
       },
       "mobileApps": {
-        "title": "Aplicaciones Móviles Personalizadas",
-        "description": "FamilyFilmApp: App de gestión familiar con notificaciones, seguimiento personalizado y control de usuarios. InvernaderosAPI: Sistema para monitorear y controlar parámetros en invernaderos, facilitando la gestión agrícola online y offline."
+        "title": "Ecosistemas IoT & Familia",
+        "description": "FamilyFilmApp: Gestión familiar privada con sincronización en tiempo real. InvernaderosAPI: Control agrícola IoT con monitoreo de sensores y alertas críticas."
       },
       "aiApis": {
-        "title": "Inteligencia Artificial y APIs Modernas",
-        "description": "GameChangerIA: Plataforma que utiliza IA para automatizar el desarrollo de aplicaciones web full-stack, reduciendo tiempos y costes de desarrollo. FileUploadGoogle: Solución para gestión y automatización de subida de archivos a Google Drive, escalable y segura."
+        "title": "Herramientas de IA & SaaS",
+        "description": "GameChangerIA: Plataforma SaaS que genera código web mediante IA. FileUploadGoogle: Microservicio de alta concurrencia para gestión documental masiva."
       },
       "enterpriseSolutions": {
-        "title": "Soluciones Empresariales a Medida",
-        "description": "Apps de monitoreo de servidores, integración con sistemas de gestión (ERP, CRM) y software de automatización interna para empresas de cualquier tamaño."
+        "title": "Soluciones Corporativas",
+        "description": "Dashboards de control para servidores críticos e integración de sistemas legacy con nuevas interfaces móviles modernas."
       },
       "techFlexibility": {
-        "title": "Flexibilidad Tecnológica",
-        "description": "Proyectos en Kotlin, Python, Java, TypeScript y Rust, lo que nos permite adaptarnos a tu stack y necesidades específicas."
+        "title": "Adaptabilidad Tecnológica",
+        "description": "Dominio políglota: Rust para rendimiento crítico, Python para IA, y Kotlin para todo el ecosistema de aplicaciones."
       }
     }
   },
   "team": {
-    "title": "Nuestro Equipo",
-    "subtitle": "Los arquitectos de tu transformación digital.",
+    "title": "Liderazgo Técnico",
+    "subtitle": "Un equipo senior, sin intermediarios ni gestores innecesarios.",
     "members": {
       "alberto": {
         "role": "Co-Founder & Lead Mobile Architect",
@@ -109,8 +109,8 @@
     }
   },
   "clients": {
-    "title": "Nuestros Clientes Valiosos",
-    "subtitle": "Hemos tenido el privilegio de trabajar con una diversa gama de clientes, ayudándolos a alcanzar sus objetivos digitales.",
+    "title": "Confían en Nosotros",
+    "subtitle": "Empresas que han dado el salto a la eficiencia real.",
     "items": {
       "academia_alba": {
         "title": "Academia Alba",
@@ -119,25 +119,25 @@
     }
   },
   "contact": {
-    "title": "¿Listo para Transformar tu Negocio?",
-    "subtitle": "Contáctanos hoy para discutir tu proyecto. Estamos ansiosos por escuchar tus ideas y ayudarte a hacerlas realidad.",
+    "title": "Hablemos de tu Estrategia",
+    "subtitle": "¿Tienes un cuello de botella técnico o una idea ambiciosa? Te ofrecemos una primera consultoría de viabilidad gratuita.",
     "form": {
       "name": "Nombre",
       "namePlaceholder": "Tu nombre completo",
-      "email": "Correo Electrónico",
-      "emailPlaceholder": "tu@email.com",
-      "message": "Mensaje",
-      "messagePlaceholder": "Cuéntanos sobre tu proyecto...",
-      "success": "¡Mensaje enviado con éxito! Nos pondremos en contacto contigo pronto.",
-      "error": "Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo más tarde.",
-      "sending": "Enviando...",
-      "send": "Enviar Mensaje"
+      "email": "Correo Corporativo",
+      "emailPlaceholder": "nombre@empresa.com",
+      "message": "Reto Tecnológico",
+      "messagePlaceholder": "Describe brevemente el problema técnico o el proyecto que quieres desarrollar...",
+      "success": "Solicitud recibida. Analizaremos tu caso y te responderemos en menos de 24h.",
+      "error": "Error de conexión. Por favor, escríbenos directamente a contacto@apptolast.com",
+      "sending": "Procesando...",
+      "send": "Solicitar Análisis"
     }
   },
   "footer": {
-    "slogan": "Diseñando el futuro digital.",
-    "services": "Servicios",
-    "company": "Empresa",
+    "slogan": "Ingeniería de propiedad total para el futuro digital.",
+    "services": "Oferta",
+    "company": "Compañía",
     "legal": "Legal",
     "rights": "Todos los derechos reservados.",
     "privacy": "Política de Privacidad",

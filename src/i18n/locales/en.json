@@ -1,95 +1,95 @@
 {
   "nav": {
-    "mission": "About Us",
-    "features": "Why AppToLast?",
-    "services": "Solutions",
+    "mission": "Philosophy",
+    "features": "Services",
+    "services": "Projects",
     "team": "Team",
     "clients": "Clients",
     "contact": "Contact",
-    "getStarted": "Get Started"
+    "getStarted": "Free Audit"
   },
   "hero": {
-    "title": "Transform Your Business with Intelligent Automation and Cross-Platform Development",
-    "subtitle": "At AppToLast, we don't just create software; we design the future of your company. We optimize your processes and connect you with your customers through cutting-edge web and mobile solutions. Focus on growth; we'll handle the technology.",
-    "startProject": "Start Your Project",
-    "learnMore": "Learn More"
+    "title": "Elite Software Engineering & Intelligent Automation",
+    "subtitle": "We are not a software factory; we are your high-level tech partner. Specialists in Kotlin Multiplatform and Private Architectures for companies demanding scalability and total control.",
+    "startProject": "Book Consultation",
+    "learnMore": "Explore Services"
   },
   "missionVision": {
-    "title": "Our Purpose and Future",
-    "subtitle": "We are a strategic ally for companies seeking authentic digital transformation.",
+    "title": "The AppToLast Standard",
+    "subtitle": "Redefining tech consultancy through code unification and data full-ownership.",
     "mission": {
-      "title": "Mission",
-      "content": "To be the strategic partner that drives the real modernization and digitalization of companies. We use cutting-edge technologies like Kotlin Multiplatform (KMP) to unify development and our own secure backend infrastructure (VPN) to ensure total control. We transform manual processes into efficient automated workflows."
+      "title": "Our Mission",
+      "content": "To eliminate technological friction. We drive real modernization using Kotlin Multiplatform (KMP) to cut maintenance costs in half, and deploy private backend infrastructures (VPN) to give you back absolute control of your data."
     },
     "vision": {
-      "title": "Vision",
-      "content": "To become the industry benchmark in the integration of Artificial Intelligence and intelligent automation. We aspire to a future where companies exploit the full potential of their data through vector databases and MCP protocols, eliminating unnecessary operational burdens."
+      "title": "Our Vision",
+      "content": "A future where AI is not a 'black box'. We integrate transparent Artificial Intelligence and vector databases on your own servers, ensuring automation works for you without compromising your privacy."
     },
     "stack": {
-      "title": "Our Differentiating Stack",
+      "title": "Vanguard Architecture",
       "items": {
-        "agile": "Agile Development (KMP): We centralize logic with Kotlin Multiplatform.",
-        "automation": "Automation (n8n & MCP): Workflow orchestration and connection via Model Context Protocol.",
-        "data": "Data Intelligence: Vector databases for semantic searches and AI.",
-        "infra": "Proprietary Infrastructure: Our own backend on private VPNs for maximum security."
+        "agile": "Unification (KMP): A single codebase for iOS, Android, and Web.",
+        "automation": "Orchestration (n8n): Automation of complex business workflows.",
+        "data": "Own Brain: Private AIs connected to your vector data.",
+        "infra": "Total Control: Infrastructure deployed on your own cloud or VPN."
       }
     }
   },
   "features": {
-    "title": "Why AppToLast?",
-    "subtitle": "AppToLast stands out because we don't just create applications; we accompany each client on an authentic and personalized digital transformation. Our team combines expertise in native development (Swift for iOS, Kotlin for Android) with know-how in automation and security, allowing us to build reliable, fast, and secure solutions.",
+    "title": "Specialized Services",
+    "subtitle": "We skip the generic. We focus on critical technical areas where we are undisputed authority.",
     "items": {
       "multiplatform": {
-        "title": "Multiplatform Experts",
-        "description": "Development of native and hybrid apps to cover all your needs, from prototypes to highly scalable products."
+        "title": "Native Multiplatform Development",
+        "description": "We create apps for iOS and Android sharing 100% of business logic. Reduce development times and bugs without sacrificing native performance."
       },
       "automation": {
-        "title": "Intelligent Automation",
-        "description": "We integrate automated processes into your apps and corporate systems to save time, minimize errors, and boost your business."
+        "title": "Automation & AI Consultancy",
+        "description": "We audit your manual processes and deploy autonomous AI agents working 24/7, integrating your current tools (ERP, CRM) frictionlessly."
       },
       "cleanCode": {
-        "title": "Clean & Maintainable Code",
-        "description": "Our solutions maintain high standards of readability and scalability, facilitating updates and new functionalities."
+        "title": "Rescue & Refactoring",
+        "description": "Is your current project unmaintainable? We apply Clean Architecture and SOLID principles to sanitize legacy codebases and make them scalable again."
       },
       "security": {
-        "title": "Security & Trust",
-        "description": "We implement advanced security controls and best practices to protect your users' information."
+        "title": "Infrastructure & Cybersecurity",
+        "description": "We design private cloud architectures and corporate VPNs. Protect your intellectual property and customer data with banking standards."
       },
       "speed": {
-        "title": "Speed & Efficiency",
-        "description": "Apps optimized for an agile experience at both client and backend levels."
+        "title": "Performance Audit",
+        "description": "We optimize slow apps and saturated servers. We improve response times to retain your users and reduce cloud costs."
       }
     }
   },
   "services": {
-    "title": "Our Custom Solutions",
-    "subtitle": "At AppToLast, we have developed more than 15 projects in multiple languages and frameworks, adapting to each client's challenges. Explore some real-world examples:",
+    "title": "Success Stories & Impact",
+    "subtitle": "Tangible results. From startups needing speed to corporations requiring robustness.",
     "items": {
       "educationalAutomation": {
-        "title": "Educational Management Automation",
-        "description": "Project for Alba Academy in Edinburgh: We automate administrative processes and communication between teachers, students, and parents, facilitating secure access and efficiency in educational management."
+        "title": "Alba Academy (EdTech)",
+        "description": "Complete digital transformation: Enrollment and payment automation, reducing administrative load by 70% using n8n and custom mobile apps."
       },
       "mobileApps": {
-        "title": "Custom Mobile Applications",
-        "description": "FamilyFilmApp: Family management app with notifications, personalized tracking, and user control. InvernaderosAPI: System to monitor and control parameters in greenhouses, facilitating online and offline agricultural management."
+        "title": "IoT Ecosystems & Family",
+        "description": "FamilyFilmApp: Private family management with real-time sync. InvernaderosAPI: Agricultural IoT control with sensor monitoring and critical alerts."
       },
       "aiApis": {
-        "title": "Artificial Intelligence & Modern APIs",
-        "description": "GameChangerIA: Platform that uses AI to automate the development of full-stack web applications, reducing development times and costs. FileUploadGoogle: Solution for managing and automating file uploads to Google Drive, scalable and secure."
+        "title": "AI Tools & SaaS",
+        "description": "GameChangerIA: SaaS platform generating web code via AI. FileUploadGoogle: High-concurrency microservice for massive document management."
       },
       "enterpriseSolutions": {
-        "title": "Tailored Business Solutions",
-        "description": "Server monitoring apps, integration with management systems (ERP, CRM), and internal automation software for businesses of any size."
+        "title": "Corporate Solutions",
+        "description": "Control dashboards for critical servers and integration of legacy systems with modern mobile interfaces."
       },
       "techFlexibility": {
-        "title": "Technological Flexibility",
-        "description": "Projects in Kotlin, Python, Java, TypeScript, and Rust, allowing us to adapt to your stack and specific needs."
+        "title": "Technological Adaptability",
+        "description": "Polyglot mastery: Rust for critical performance, Python for AI, and Kotlin for the entire application ecosystem."
       }
     }
   },
   "team": {
-    "title": "Our Team",
-    "subtitle": "The architects of your digital transformation.",
+    "title": "Technical Leadership",
+    "subtitle": "A senior team, no intermediaries or unnecessary managers.",
     "members": {
       "alberto": {
         "role": "Co-Founder & Lead Mobile Architect",
@@ -109,8 +109,8 @@
     }
   },
   "clients": {
-    "title": "Our Valued Clients",
-    "subtitle": "We've had the privilege of working with a diverse range of clients, helping them achieve their digital goals.",
+    "title": "They Trust Us",
+    "subtitle": "Companies that have made the leap to real efficiency.",
     "items": {
       "academia_alba": {
         "title": "Academia Alba",
@@ -119,24 +119,24 @@
     }
   },
   "contact": {
-    "title": "Ready to Transform Your Business?",
-    "subtitle": "Contact us today to discuss your project. We're eager to hear about your ideas and help you bring them to life.",
+    "title": "Let's Talk Strategy",
+    "subtitle": "Have a technical bottleneck or an ambitious idea? We offer a free initial feasibility consultation.",
     "form": {
-        "name": "Name",
-        "namePlaceholder": "Your full name",
-        "email": "Email",
-        "emailPlaceholder": "you@email.com",
-        "message": "Message",
-        "messagePlaceholder": "Tell us about your project...",
-        "success": "Message sent successfully! We'll get back to you soon.",
-        "error": "There was an error sending the message. Please try again later.",
-        "sending": "Sending...",
-        "send": "Send Message"
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "Corporate Email",
+      "emailPlaceholder": "name@company.com",
+      "message": "Tech Challenge",
+      "messagePlaceholder": "Briefly describe the technical problem or project you want to develop...",
+      "success": "Request received. We will analyze your case and reply in less than 24h.",
+      "error": "Connection error. Please write to us directly at contact@apptolast.com",
+      "sending": "Processing...",
+      "send": "Request Analysis"
     }
   },
   "footer": {
-    "slogan": "Designing the digital future.",
-    "services": "Services",
+    "slogan": "Full-ownership engineering for the digital future.",
+    "services": "Offer",
     "company": "Company",
     "legal": "Legal",
     "rights": "All rights reserved.",
