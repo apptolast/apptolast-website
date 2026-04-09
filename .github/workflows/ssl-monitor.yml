@@ -1,0 +1,60 @@
+name: SSL Certificate Monitor
+
+on:
+  schedule:
+    # Run every Monday and Thursday at 09:00 UTC
+    - cron: '0 9 * * 1,4'
+  workflow_dispatch:
+
+jobs:
+  check-cert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check SSL certificate expiry
+        id: check
+        run: |
+          DOMAIN="apptolast.com"
+          EXPIRY=$(echo | openssl s_client -connect "${DOMAIN}:443" -servername "${DOMAIN}" 2>/dev/null | openssl x509 -noout -enddate 2>/dev/null | cut -d= -f2)
+          if [ -z "$EXPIRY" ]; then
+            echo "status=critical" >> $GITHUB_OUTPUT
+            echo "days_left=0" >> $GITHUB_OUTPUT
+            echo "expiry=UNKNOWN" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          EXPIRY_EPOCH=$(date -d "$EXPIRY" +%s)
+          NOW_EPOCH=$(date +%s)
+          DAYS_LEFT=$(( (EXPIRY_EPOCH - NOW_EPOCH) / 86400 ))
+          echo "days_left=${DAYS_LEFT}" >> $GITHUB_OUTPUT
+          echo "expiry=${EXPIRY}" >> $GITHUB_OUTPUT
+          if [ "$DAYS_LEFT" -lt 14 ]; then
+            echo "status=warning" >> $GITHUB_OUTPUT
+          else
+            echo "status=ok" >> $GITHUB_OUTPUT
+          fi
+          echo "Certificate for ${DOMAIN}: ${DAYS_LEFT} days remaining (expires ${EXPIRY})"
+
+      - name: Attempt cert renewal if less than 7 days
+        if: steps.check.outputs.status != 'ok' && steps.check.outputs.days_left < 7
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Certificate expiring in ${{ steps.check.outputs.days_left }} days. Cycling custom domain..."
+          gh api -X PUT repos/${{ github.repository }}/pages -f cname=""
+          sleep 60
+          gh api -X PUT repos/${{ github.repository }}/pages -f cname="apptolast.com"
+          echo "Domain cycled. Certificate should re-provision within 1 hour."
+
+      - name: Create issue if cert expiring
+        if: steps.check.outputs.status != 'ok'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          EXISTING=$(gh issue list -R ${{ github.repository }} --label "ssl-cert" --state open --json number --jq 'length')
+          if [ "$EXISTING" -gt "0" ]; then
+            echo "Issue already exists, skipping"
+            exit 0
+          fi
+          gh issue create \
+            --title "SSL cert for apptolast.com expiring in ${{ steps.check.outputs.days_left }} days" \
+            --body "The SSL certificate for apptolast.com expires on ${{ steps.check.outputs.expiry }} (${{ steps.check.outputs.days_left }} days remaining). Auto-renewal was attempted if < 7 days. Check Pages settings if not resolved within 1 hour." \
+            --label "ssl-cert" || true
