@@ -3,7 +3,7 @@
     "apps": [],
     "details": [
       {
-        "appID": "com.apptolast.greenhousefronts.GreenhouseFronts",
+        "appID": "3NXH5U7C5A.com.apptolast.greenhousefronts",
         "paths": [ "/", "/?*" ]
       }
     ]
