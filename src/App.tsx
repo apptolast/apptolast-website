@@ -4,7 +4,6 @@ import Hero from './components/Hero';
 import MissionVision from './components/MissionVision';
 import Features from './components/Features';
 import Services from './components/Services';
-import Clients from './components/Clients';
 import Team from './components/Team';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -27,7 +26,7 @@ function App() {
               <MissionVision />
               <Features />
               <Services />
-              <Clients />
+
               <Team />
               <Contact />
             </main>

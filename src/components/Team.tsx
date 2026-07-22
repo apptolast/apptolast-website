@@ -31,13 +31,6 @@ const TEAM_MEMBERS: TeamMember[] = [
     stack: ["CI/CD", "Java", "Python", "Cloud Sec"],
     social: { linkedin: "https://www.linkedin.com/in/pablo-hurtado-gonzalo-9a5478237/", github: "https://github.com/PabloHurtadoGonzalo86" }
   },
-  {
-    id: "jesus",
-    name: "Jesús Hidalgo",
-    image: "/images/team/jesus.jpeg",
-    stack: ["Industrial IoT", "AI Strategy", "Business"],
-    social: { linkedin: "https://www.linkedin.com/in/jesus-hidalgo-garcia/"}
-  }
 ];
 
 const Team = () => {
@@ -55,7 +48,7 @@ const Team = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
           {TEAM_MEMBERS.map((member) => (
             <div
               key={member.id}
